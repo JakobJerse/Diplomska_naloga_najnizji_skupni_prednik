@@ -5,12 +5,14 @@ public class LCA_sqrt {
     int numNodes;
     int blockSize;
     TreeNode[] jumpParents;
+    UtilMethods utilMethods = new UtilMethods();
 
     public LCA_sqrt(TreeNode root) {
         this.root = root;
-        this.numNodes = getNumberOfNoodes(root);
+        this.numNodes = utilMethods.getNumberOfNoodes(root);
         this.blockSize = (int) Math.floor(Math.sqrt(numNodes));
         this.jumpParents = new TreeNode[numNodes + 1];
+        // preprocess
         getJumpParents(root);
     }
 
@@ -28,13 +30,10 @@ public class LCA_sqrt {
             node1 = jumpParents[node1.getValue()];
         }
 
-        // at this point, node1 and node2 have the same jump parent
-        // get them to the same depth
         while (node1.getDepth() > node2.getDepth()) {
             node1 = node1.parent;
         }
 
-        // traverse up until they meet - this is the LCA
         while (node1 != node2) {
             node1 = node1.parent;
             node2 = node2.parent;
@@ -58,20 +57,6 @@ public class LCA_sqrt {
         for (TreeNode child : node.children) {
             getJumpParents(child);
         }
-    }
-
-    private int getNumberOfNoodes(TreeNode root) {
-        if (root == null) {
-            return 0;
-        }
-
-        int counter = 1;
-
-        for (TreeNode child : root.children) {
-            counter += getNumberOfNoodes(child);
-        }
-
-        return counter;
     }
 
     private TreeNode[] swapNodes(TreeNode node1, TreeNode node2) {

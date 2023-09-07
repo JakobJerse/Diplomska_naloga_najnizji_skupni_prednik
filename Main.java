@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        UtilMethods utilMethods = new UtilMethods();
         Map<Integer, TreeNode> nodeMap = new HashMap<>();
 
         TreeGenerator treeGenerator = new TreeGenerator();
@@ -16,7 +17,7 @@ public class Main {
         System.out.println("Chosen tree: ");
 
         treeGenerator.printTree(root);
-        System.out.println("Depth of the tree: " + treeGenerator.height(root));
+        System.out.println("Depth of the tree: " + utilMethods.height(root));
 
         System.out.println(
                 "Enter the values \u200B\u200Bof the nodes for which you want to find the lowest common ancestor: ");
