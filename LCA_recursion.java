@@ -11,14 +11,11 @@ public class LCA_recursion {
         boolean node2Found = findPath(root, node2, path2);
 
         if (!node1Found) {
-            System.out.println("Node1 not found");
-            return null;
+            throw new IllegalArgumentException("Node1 not found");
         } else if (!node2Found) {
-            System.out.println("Node2 not found");
-            return null;
+            throw new IllegalArgumentException("Node2 not found");
         } else if (!node1Found && !node2Found) {
-            System.out.println("Both nodes not found");
-            return null;
+            throw new IllegalArgumentException("Both nodes not found");
         }
 
         int LCA_index = 0;

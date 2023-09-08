@@ -28,4 +28,12 @@ public class UtilMethods {
 
         return maxHeight + 1;
     }
+
+    public TreeNode[] swapNodes(TreeNode node1, TreeNode node2) {
+        TreeNode temp = node1;
+        node1 = node2;
+        node2 = temp;
+
+        return new TreeNode[] { node1, node2 };
+    }
 }

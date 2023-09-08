@@ -21,6 +21,10 @@ public class TreeGenerator {
         Random random = new Random();
         int numChildren = random.nextInt(maxChildren + 1);
 
+        if (currentDepth == 0 && numChildren == 0) {
+            numChildren = 1;
+        }
+
         for (int i = 0; i < numChildren; i++) {
             TreeNode child = generateRandomTree(currentDepth + 1, maxDepth, maxChildren, nodeMap);
             if (child != null) {
@@ -31,7 +35,25 @@ public class TreeGenerator {
         return node;
     }
 
-    
+    public TreeNode generateCompleteBinaryTree(int maxDepth, Map<Integer, TreeNode> nodeMap) {
+        return generateCompleteBinaryTree(0, maxDepth, nodeMap);
+    }
+
+    private TreeNode generateCompleteBinaryTree(int currentDepth, int maxDepth, Map<Integer, TreeNode> nodeMap) {
+        if (currentDepth > maxDepth) {
+            return null;
+        }
+
+        TreeNode node = new TreeNode(currentLabel++, currentDepth);
+        nodeMap.put(node.getValue(), node);
+
+        if (currentDepth < maxDepth) {
+            node.addChild(generateCompleteBinaryTree(currentDepth + 1, maxDepth, nodeMap));
+            node.addChild(generateCompleteBinaryTree(currentDepth + 1, maxDepth, nodeMap));
+        }
+
+        return node;
+    }
 
     // Print the tree
     public void printTree(TreeNode node) {
