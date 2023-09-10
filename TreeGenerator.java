@@ -1,3 +1,8 @@
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.*;
 
 public class TreeGenerator {
@@ -5,18 +10,16 @@ public class TreeGenerator {
     // Tree generator
     private int currentLabel = 1;
 
-    public TreeNode generateRandomTree(int maxDepth, int maxChildren, Map<Integer, TreeNode> nodeMap) {
-        return generateRandomTree(0, maxDepth, maxChildren, nodeMap);
+    public TreeNode generateRandomTree(int maxDepth, int maxChildren) {
+        return generateRandomTree(0, maxDepth, maxChildren);
     }
 
-    private TreeNode generateRandomTree(int currentDepth, int maxDepth, int maxChildren,
-            Map<Integer, TreeNode> nodeMap) {
+    private TreeNode generateRandomTree(int currentDepth, int maxDepth, int maxChildren) {
         if (currentDepth > maxDepth) {
             return null;
         }
 
         TreeNode node = new TreeNode(currentLabel++, currentDepth);
-        nodeMap.put(node.getValue(), node);
 
         Random random = new Random();
         int numChildren = random.nextInt(maxChildren + 1);
@@ -26,7 +29,7 @@ public class TreeGenerator {
         }
 
         for (int i = 0; i < numChildren; i++) {
-            TreeNode child = generateRandomTree(currentDepth + 1, maxDepth, maxChildren, nodeMap);
+            TreeNode child = generateRandomTree(currentDepth + 1, maxDepth, maxChildren);
             if (child != null) {
                 node.addChild(child);
             }
@@ -35,21 +38,40 @@ public class TreeGenerator {
         return node;
     }
 
-    public TreeNode generateCompleteBinaryTree(int maxDepth, Map<Integer, TreeNode> nodeMap) {
-        return generateCompleteBinaryTree(0, maxDepth, nodeMap);
+    public TreeNode generateCompleteTree(int maxDepth, int numChildren) {
+        return generateCompleteTree(0, maxDepth, numChildren);
     }
 
-    private TreeNode generateCompleteBinaryTree(int currentDepth, int maxDepth, Map<Integer, TreeNode> nodeMap) {
+    private TreeNode generateCompleteTree(int currentDepth, int maxDepth, int numChildren) {
         if (currentDepth > maxDepth) {
             return null;
         }
 
         TreeNode node = new TreeNode(currentLabel++, currentDepth);
-        nodeMap.put(node.getValue(), node);
+
+        for (int i = 0; i < numChildren; i++) {
+            TreeNode child = generateCompleteTree(currentDepth + 1, maxDepth, numChildren);
+            if (child != null) {
+                node.addChild(child);
+            }
+        }
+
+        return node;
+    }
+
+    public TreeNode generateSkewedTree(int maxDepth) {
+        return generateSkewedTree(0, maxDepth);
+    }
+
+    private TreeNode generateSkewedTree(int currentDepth, int maxDepth) {
+        if (currentDepth > maxDepth) {
+            return null;
+        }
+
+        TreeNode node = new TreeNode(currentLabel++, currentDepth);
 
         if (currentDepth < maxDepth) {
-            node.addChild(generateCompleteBinaryTree(currentDepth + 1, maxDepth, nodeMap));
-            node.addChild(generateCompleteBinaryTree(currentDepth + 1, maxDepth, nodeMap));
+            node.addChild(generateSkewedTree(currentDepth + 1, maxDepth));
         }
 
         return node;
@@ -106,4 +128,27 @@ public class TreeGenerator {
         System.out.println();
     }
 
+    public void saveTreeToFile(TreeNode root, String filename) {
+        try (FileOutputStream fileOut = new FileOutputStream(filename);
+                ObjectOutputStream outputStream = new ObjectOutputStream(fileOut)) {
+            outputStream.writeObject(root);
+            outputStream.close();
+        } catch (IOException ioe) {
+            System.err.println("IOException");
+            ioe.printStackTrace();
+        }
+    }
+
+    public TreeNode loadTreeFromFile(String filename) {
+        TreeNode root = null;
+        try (FileInputStream fileIn = new FileInputStream(filename);
+                ObjectInputStream inputStream = new ObjectInputStream(fileIn)) {
+            root = (TreeNode) inputStream.readObject();
+            inputStream.close();
+        } catch (IOException | ClassNotFoundException cnfe) {
+            System.err.println("TreeNode class not found");
+            cnfe.printStackTrace();
+        }
+        return root;
+    }
 }

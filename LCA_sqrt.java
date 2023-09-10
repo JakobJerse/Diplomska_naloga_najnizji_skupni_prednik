@@ -5,6 +5,7 @@ public class LCA_sqrt {
     int numNodes;
     int blockSize;
     TreeNode[] jumpParents;
+    Map<Integer, TreeNode> nodeMap;
     UtilMethods utilMethods = new UtilMethods();
 
     public LCA_sqrt(TreeNode root) {
@@ -12,10 +13,12 @@ public class LCA_sqrt {
         this.numNodes = utilMethods.getNumberOfNoodes(root);
         this.blockSize = (int) Math.sqrt(utilMethods.height(root));
         this.jumpParents = new TreeNode[numNodes + 1];
+        this.nodeMap = new HashMap<>();
         getJumpParents(root);
+
     }
 
-    public TreeNode getLCA(int node1_value, int node2_value, Map<Integer, TreeNode> nodeMap) {
+    public TreeNode getLCA(int node1_value, int node2_value) {
 
         if (!nodeMap.containsKey(node1_value)) {
             throw new IllegalArgumentException("Node1 not found");
@@ -37,6 +40,12 @@ public class LCA_sqrt {
             node1 = jumpParents[node1.getValue()];
         }
 
+        if (node2.getDepth() > node1.getDepth()) {
+            TreeNode[] swapedNodes = utilMethods.swapNodes(node1, node2);
+            node1 = swapedNodes[0];
+            node2 = swapedNodes[1];
+        }
+
         while (node1.getDepth() > node2.getDepth()) {
             node1 = node1.parent;
         }
@@ -54,6 +63,7 @@ public class LCA_sqrt {
         if (node == null) {
             return;
         }
+        nodeMap.put(node.getValue(), node);
 
         if (node.getDepth() % blockSize == 0) {
             jumpParents[node.getValue()] = node.parent;

@@ -1,10 +1,11 @@
-import java.util.Map;
+import java.util.*;
 
 public class LCA_binary_lift {
     TreeNode root;
     TreeNode[][] ancestors;
     int numNodes;
     int numAncesstors;
+    Map<Integer, TreeNode> nodeMap;
     UtilMethods utilMethods = new UtilMethods();
 
     public LCA_binary_lift(TreeNode root) {
@@ -12,10 +13,11 @@ public class LCA_binary_lift {
         this.numNodes = utilMethods.getNumberOfNoodes(root);
         this.numAncesstors = (int) Math.floor(Math.log(utilMethods.height(root)) / Math.log(2));
         this.ancestors = new TreeNode[numNodes + 1][numAncesstors + 1];
+        this.nodeMap = new HashMap<>();
         preprocess(root);
     }
 
-    public TreeNode getLCA(int node1_value, int node2_value, Map<Integer, TreeNode> nodeMap) {
+    public TreeNode getLCA(int node1_value, int node2_value) {
 
         if (!nodeMap.containsKey(node1_value)) {
             throw new IllegalArgumentException("Node1 not found");
@@ -62,6 +64,8 @@ public class LCA_binary_lift {
         if (root == null) {
             return;
         }
+
+        nodeMap.put(root.getValue(), root);
 
         ancestors[root.getValue()][0] = root.parent;
         for (int i = 1; i <= numAncesstors; i++) {
