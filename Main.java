@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        UtilMethods utilMethods = new UtilMethods();
         TreeGenerator treeGenerator = new TreeGenerator();
 
         // TreeNode root = treeGenerator.generateRandomTree(4, 2);

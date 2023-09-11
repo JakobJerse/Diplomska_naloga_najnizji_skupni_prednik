@@ -1,6 +1,6 @@
 public class UtilMethods {
 
-    public int getNumberOfNoodes(TreeNode root) {
+    public static int getNumberOfNoodes(TreeNode root) {
         if (root == null) {
             return 0;
         }
@@ -14,7 +14,7 @@ public class UtilMethods {
         return counter;
     }
 
-    public int height(TreeNode root) {
+    public static int height(TreeNode root) {
         if (root == null) {
             return -1;
         }
@@ -29,7 +29,7 @@ public class UtilMethods {
         return maxHeight + 1;
     }
 
-    public TreeNode[] swapNodes(TreeNode node1, TreeNode node2) {
+    public static TreeNode[] swapNodes(TreeNode node1, TreeNode node2) {
         TreeNode temp = node1;
         node1 = node2;
         node2 = temp;

@@ -6,12 +6,11 @@ public class LCA_binary_lift {
     int numNodes;
     int numAncesstors;
     Map<Integer, TreeNode> nodeMap;
-    UtilMethods utilMethods = new UtilMethods();
 
     public LCA_binary_lift(TreeNode root) {
         this.root = root;
-        this.numNodes = utilMethods.getNumberOfNoodes(root);
-        this.numAncesstors = (int) Math.floor(Math.log(utilMethods.height(root)) / Math.log(2));
+        this.numNodes = UtilMethods.getNumberOfNoodes(root);
+        this.numAncesstors = (int) Math.floor(Math.log(UtilMethods.height(root)) / Math.log(2));
         this.ancestors = new TreeNode[numNodes + 1][numAncesstors + 1];
         this.nodeMap = new HashMap<>();
         preprocess(root);
@@ -31,7 +30,7 @@ public class LCA_binary_lift {
         TreeNode node2 = nodeMap.get(node2_value);
 
         if (node2.getDepth() > node1.getDepth()) {
-            TreeNode[] swapedNodes = utilMethods.swapNodes(node1, node2);
+            TreeNode[] swapedNodes = UtilMethods.swapNodes(node1, node2);
             node1 = swapedNodes[0];
             node2 = swapedNodes[1];
         }

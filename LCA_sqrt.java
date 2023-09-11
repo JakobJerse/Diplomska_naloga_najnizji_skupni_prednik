@@ -6,12 +6,11 @@ public class LCA_sqrt {
     int blockSize;
     TreeNode[] jumpParents;
     Map<Integer, TreeNode> nodeMap;
-    UtilMethods utilMethods = new UtilMethods();
 
     public LCA_sqrt(TreeNode root) {
         this.root = root;
-        this.numNodes = utilMethods.getNumberOfNoodes(root);
-        this.blockSize = (int) Math.sqrt(utilMethods.height(root));
+        this.numNodes = UtilMethods.getNumberOfNoodes(root);
+        this.blockSize = (int) Math.sqrt(UtilMethods.height(root));
         this.jumpParents = new TreeNode[numNodes + 1];
         this.nodeMap = new HashMap<>();
         getJumpParents(root);
@@ -33,7 +32,7 @@ public class LCA_sqrt {
 
         while (jumpParents[node1.getValue()] != jumpParents[node2.getValue()]) {
             if (node2.getDepth() > node1.getDepth()) {
-                TreeNode[] swapedNodes = utilMethods.swapNodes(node1, node2);
+                TreeNode[] swapedNodes = UtilMethods.swapNodes(node1, node2);
                 node1 = swapedNodes[0];
                 node2 = swapedNodes[1];
             }
@@ -41,7 +40,7 @@ public class LCA_sqrt {
         }
 
         if (node2.getDepth() > node1.getDepth()) {
-            TreeNode[] swapedNodes = utilMethods.swapNodes(node1, node2);
+            TreeNode[] swapedNodes = UtilMethods.swapNodes(node1, node2);
             node1 = swapedNodes[0];
             node2 = swapedNodes[1];
         }

@@ -2,13 +2,13 @@ import java.util.ArrayList;
 
 public class LCA_recursion {
 
-    public TreeNode getLCA(TreeNode root, int node1, int node2) {
+    public TreeNode getLCA(TreeNode root, int node1_value, int node2_value) {
 
         ArrayList<TreeNode> path1 = new ArrayList<>();
         ArrayList<TreeNode> path2 = new ArrayList<>();
 
-        boolean node1Found = findPath(root, node1, path1);
-        boolean node2Found = findPath(root, node2, path2);
+        boolean node1Found = findPath(root, node1_value, path1);
+        boolean node2Found = findPath(root, node2_value, path2);
 
         if (!node1Found) {
             throw new IllegalArgumentException("Node1 not found");
