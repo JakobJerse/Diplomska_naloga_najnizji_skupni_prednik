@@ -49,14 +49,15 @@ Repozitorij vsebuje sledeče datoteke:
 
 ---
 
-- **LCA_recursion.java** razred, predstavlja prvi način iskanja najnižjega skupnega prednika (LCA) dveh vozlišč v drvesu. V tem primeru se uporabi enostaven rekurzivni pristop. Razred vsebuje 2 metodi:
+- **LCA_recursion.java** razred, predstavlja prvi način iskanja najnižjega skupnega prednika (LCA) dveh vozlišč v drvesu. V tem primeru se uporabi enostaven rekurzivni pristop. Časovna zahtevnost predprocesiranja in odgovarjanja na poizvedbe pa je **O(N)**, kjer je N število vozlišč v drevesu.  
+Razred vsebuje 2 metodi:
 
     + **private boolean findPath(TreeNode current, int target, ArrayList &lt;TreeNode&gt; path)** &rarr; metoda sprejme začetno vozlišče *current* (po navadi koren drevesa) in pa vrednost vozlišča, ki ga želimo poiskati. Metoda za iskanje vozlišča izvede iskanje v globino (*depth first search*) in pot do vozlišča shranjuje v ArrayList *path*. Če je vozlišče s podano vrednostjo *target* najdeno, metoda vrne *true*, v nasprotnem primeru, pa vrne *false*.
     + **public TreeNode getLCA(TreeNode root, int node1_value, int node2_value)** &rarr; metoda sprejme koren drevesa *root*, v katerem bomo iskali najnižjega skupnega prednika, ter vrednosti *node1_value* in *node2_value*, ki predstavljata vrednosti vozlišč, za kateri želimo poiskati najnižjega skupnega prednika. Metoda najprej inicializira dva ArrayLista, kamor bomo s pomočjo metode *findPath* shranili pot do vozlišč z vrednostima *node1_value* in *node2_value*. V primeru, da s pomočjo funkcije *findPath* ne najdemo enega ali pa obeh vozlišč, metoda vrne ustrezno napako. V nasprotnem primeru pa se s *for* zanko sprehodimo čez elemnte ArrayListov in ko se vozlišča na istem indeksu razlikujeta, pomeni da je vozlišče na prejšnjem indeksu najnižji skupni prednik danih vozlišč.
 
 ---
 
-- **LCA_sqrt** razred, predstavlja drugi način iskanja najnižjega skupnega prednika (LCA) dveh vozlišč v drevesu. Ta način predstavlja izboljšavo v primerjavi s prvim, saj s pomočjo **korenske dekompozicije drevesa** doseže bolj optimalno časovno zahtevnost.
+- **LCA_sqrt** razred, predstavlja drugi način iskanja najnižjega skupnega prednika (LCA) dveh vozlišč v drevesu. Ta način predstavlja izboljšavo v primerjavi s prvim, saj s pomočjo **korenske dekompozicije drevesa** doseže bolj optimalno časovno zahtevnost. Časovna zahtevnost predprocesiranja je **O(N)**, časovna zahevnost odgovarjanja na poizvedbe pa je **O(sqrt(h))**, kjer je N število vozlišč v drevesu, h pa višina drevesa.
 
     Atributi:
     + **TreeNode root** &rarr; predstavlja korensko vozlišče drevesa, na katerem se bo izvajal algoritem za iskanje najnižjega skupnega prednika.
@@ -81,7 +82,8 @@ Repozitorij vsebuje sledeče datoteke:
 
 ---
 
-- **LCA_binaryLift.java** razred, predstavlja tretji način iskanja najnižjega skupnega prednika (LCA) dveh vozlišč v drevesu. Ta način predstavlja še dodatno izboljšavo v primerjavi s prvim in drugim načinom, saj s pomočjo **hranjenja *logN* prednikov za vsako vozlišče**  doseže še bolj optimalno časovno zahtevnost.
+- **LCA_binaryLift.java** razred, predstavlja tretji način iskanja najnižjega skupnega prednika (LCA) dveh vozlišč v drevesu. Ta način predstavlja še dodatno izboljšavo v primerjavi s prvim in drugim načinom, saj s pomočjo **hranjenja *logN* prednikov za vsako vozlišče** in uporabo teh za večje premike (skoke) po drvesu doseže še bolj optimalno časovno zahtevnost.  
+Časovna zahtevnost predprocesiranja je **O(N logN)**, časovna zahevnost odgovarjanja na poizvedbe pa je **O(log N)**, kjer je N število vozlišč v drevesu. 
 
     Atributi:
     + **TreeNode root** &rarr; predstavlja korensko vozlišče drevesa, na katerem se bo izvajal algoritem za iskanje najnižjega skupnega prednika.
