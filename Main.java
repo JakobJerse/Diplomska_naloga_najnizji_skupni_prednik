@@ -8,8 +8,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         TreeGenerator treeGenerator = new TreeGenerator();
 
-        // TreeNode root = treeGenerator.generateRandomTree(4, 2);
+        // TreeNode root = treeGenerator.generateCompleteTree(2, 2);
         // treeGenerator.printTree(root);
+        // LCA_RMQ lca4 = new LCA_RMQ(root);
+        // System.out.println(lca4.getLCA(3, 4));
 
         System.out.println("---------------------");
 
@@ -20,6 +22,7 @@ public class Main {
             LCA_recursion lca = new LCA_recursion();
             LCA_sqrt lca2 = new LCA_sqrt(root);
             LCA_binary_lift lca3 = new LCA_binary_lift(root);
+            LCA_RMQ lca4 = new LCA_RMQ(root);
 
             System.out.println("Tree " + i + ": ");
             treeGenerator.printTree(root);
@@ -33,6 +36,8 @@ public class Main {
                     lca2.getLCA(node1, node2));
             System.out.println("LCA3 of nodes " + node1 + " and " + node2 + " is : " +
                     lca3.getLCA(node1, node2));
+            System.out.println("LCA4 of nodes " + node1 + " and " + node2 + " is : " +
+                    lca4.getLCA(node1, node2));
 
             System.out.println("---------------------");
         }
