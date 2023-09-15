@@ -108,7 +108,7 @@ Razred vsebuje 2 metodi:
 
 ---
 
-
+- **LCA_RMQ.java** razred, predstavlja četrti način iskanja najnižjega skupnega prednika (LCA) dveh vozlišč v drevesu. Tukaj, problem iskanja najnižjega skupnega prednika (LCA) prvedemo na iskanje najmanjše vrednosti na intervalu (RMQ). Časovna zahtevnost predprocesiranja je **O(N logN)**, časovna zahevnost odgovarjanja na poizvedbe pa je konstantna **O(1)**.
   
 
 
