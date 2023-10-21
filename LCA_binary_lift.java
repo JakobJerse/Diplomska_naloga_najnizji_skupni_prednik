@@ -1,3 +1,10 @@
+
+/*
+ *  Implementation of LCA  algorithm using binary lifting technique
+ *  Preprocesing complexity : O(nlog(n))
+ *  Query complexity : O(log(n))
+ */
+
 import java.util.*;
 
 public class LCA_binary_lift {
@@ -16,6 +23,7 @@ public class LCA_binary_lift {
         preprocess(root);
     }
 
+    // LCA query
     public TreeNode getLCA(int node1_value, int node2_value) {
 
         if (!nodeMap.containsKey(node1_value)) {
@@ -59,6 +67,7 @@ public class LCA_binary_lift {
         return ancestors[node1.getValue()][0];
     }
 
+    // precompute the ancestors array using dynamic programming
     private void preprocess(TreeNode root) {
         if (root == null) {
             return;

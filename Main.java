@@ -18,7 +18,7 @@ public class Main {
                         LCA_sqrt lca2 = new LCA_sqrt(root);
                         LCA_binary_lift lca3 = new LCA_binary_lift(root);
                         LCA_RMQ lca4 = new LCA_RMQ(root);
-                        LCA_RMQ_2 lca5 = new LCA_RMQ_2(root);
+                        LCA_FCB lca5 = new LCA_FCB(root);
 
                         System.out.println("Tree " + i + ": ");
                         treeGenerator.printTree(root);

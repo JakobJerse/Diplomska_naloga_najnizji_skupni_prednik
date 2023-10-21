@@ -1,3 +1,10 @@
+
+/*
+ *  Implementation of LCA using reduction to RMQ technique
+ *  Preprocesing complexity : O(nlog(n))
+ *  Query complexity : O(1)
+ */
+
 import java.util.*;
 
 public class LCA_RMQ {
@@ -26,13 +33,14 @@ public class LCA_RMQ {
         this.sparseTable = new int[p + 1][size];
         this.indexTable = new int[p + 1][size];
 
-        preprocess();
+        buildHelperArrays();
         dfs(this.root);
         buildSparseTable();
         System.out.println("test");
     }
 
-    private void preprocess() {
+    // construct the log2 and pow2 arrays
+    private void buildHelperArrays() {
         pow2Array[0] = 1;
         for (int i = 1; i <= this.size; i++) {
             log2Array[i] = (int) (Math.log(i) / Math.log(2));
@@ -41,6 +49,8 @@ public class LCA_RMQ {
 
     }
 
+    // perform depth first search on the tree and fills the eulerTourArray and the
+    // depthArray
     private void dfs(TreeNode root) {
 
         if (root == null) {
@@ -62,6 +72,7 @@ public class LCA_RMQ {
 
     }
 
+    // build the sparse table using dynamic programming
     private void buildSparseTable() {
 
         for (int i = 0; i < depthArray.size(); i++) {
@@ -84,6 +95,7 @@ public class LCA_RMQ {
         }
     }
 
+    // query the sparse table
     private int query(int left, int right) {
 
         int length = right - left + 1;
@@ -99,6 +111,7 @@ public class LCA_RMQ {
 
     }
 
+    // LCA query
     public TreeNode getLCA(int node1_value, int node2_value) {
         int left = Math.min(firstAppearanceIndex[node1_value], firstAppearanceIndex[node2_value]);
         int right = Math.max(firstAppearanceIndex[node1_value], firstAppearanceIndex[node2_value]);

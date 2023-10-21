@@ -1,7 +1,15 @@
+
+/*
+ * Implementation of LCA (naive) algorithm using simple recursion
+ * Preprocesing complexity : O(n)
+ * Query complexity : O(n)
+ */
+
 import java.util.ArrayList;
 
 public class LCA_recursion {
 
+    // LCA query
     public TreeNode getLCA(TreeNode root, int node1_value, int node2_value) {
 
         ArrayList<TreeNode> path1 = new ArrayList<>();
@@ -30,6 +38,7 @@ public class LCA_recursion {
         return path1.get(LCA_index);
     }
 
+    // find path from root to target node with recursion
     private boolean findPath(TreeNode current, int target, ArrayList<TreeNode> path) {
         if (current == null) {
             return false;

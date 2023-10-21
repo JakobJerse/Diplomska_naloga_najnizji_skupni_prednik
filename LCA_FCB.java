@@ -1,6 +1,13 @@
+
+/*
+ *  Implementation of LCA  Farach-Colton and Bender algorithm
+ *  Preprocesing complexity : O(n)
+ *  Query complexity : O(1)
+ */
+
 import java.util.*;
 
-public class LCA_RMQ_2 {
+public class LCA_FCB {
     TreeNode root;
     int numNodes;
     int p;
@@ -18,7 +25,7 @@ public class LCA_RMQ_2 {
     int[][] sparseTable;
     int[][][] precomputedBlocks;
 
-    public LCA_RMQ_2(TreeNode root) {
+    public LCA_FCB(TreeNode root) {
         this.root = root;
         this.numNodes = UtilMethods.getNumberOfNoodes(root);
         this.eulerTourSize = 2 * numNodes - 1;
@@ -40,6 +47,7 @@ public class LCA_RMQ_2 {
         System.out.println("test");
     }
 
+    // construct the log2 and pow2 arrays
     private void buildHelperArrays() {
         pow2Array[0] = 1;
         for (int i = 1; i <= this.eulerTourSize; i++) {
@@ -49,6 +57,7 @@ public class LCA_RMQ_2 {
 
     }
 
+    // perform depth first search on the tree and fills the eulerTourArray and the depthArray
     private void dfs(TreeNode root) {
 
         if (root == null) {
@@ -70,6 +79,7 @@ public class LCA_RMQ_2 {
 
     }
 
+    // precompute the minimum of each block
     private void preprocessBlocks(int blockSize) {
         minOfEachBlock = new int[numBlocks];
         blockStartingIndex = new int[numBlocks + 1];
@@ -86,6 +96,7 @@ public class LCA_RMQ_2 {
         }
     }
 
+    // build the sparse table based on the minimum of each block using dynamic programming
     private void buildSparseTable() {
         int p = (int) (Math.log(numBlocks) / Math.log(2));
         sparseTable = new int[p + 1][numBlocks];
@@ -103,6 +114,7 @@ public class LCA_RMQ_2 {
         }
     }
 
+    // precompute the bitmasks for each block
     private void precomputeBlockBitMasks() {
         for (int i = 0; i < numBlocks; i++) {
             int mask = 0;
@@ -120,7 +132,7 @@ public class LCA_RMQ_2 {
         }
     }
 
-    // TO CHECK!!
+    // precompute the LCA for each possible subsequence of each block
     private void precomputeBlocks() {
         int max_num_sequences = (1 << (blockSize - 1)); // 2^(blockSize - 1)
         precomputedBlocks = new int[max_num_sequences][blockSize][blockSize];
@@ -149,26 +161,14 @@ public class LCA_RMQ_2 {
         }
     }
 
+    // LCA query
     public TreeNode getLCA(int node1_value, int node2_value) {
         int left = Math.min(firstAppearanceIndex[node1_value], firstAppearanceIndex[node2_value]);
-
-        // for (int i = 0; i < eulerTourArray.size(); i++) {
-        // System.out.print(eulerTourArray.get(i).getValue() + " ");
-        // }
-        // System.out.println();
-        // for (int i = 0; i < eulerTourArray.size(); i++) {
-        // System.out.print(depthArray.get(i) + " ");
-        // }
-        // System.out.println();
 
         int right = Math.max(firstAppearanceIndex[node1_value], firstAppearanceIndex[node2_value]);
 
         int leftBlockIndex = left / blockSize;
         int rightBlockIndex = right / blockSize;
-
-        // if (right % blockSize == 0) {
-        // rightBlockIndex -= 1;
-        // }
 
         int lcaIndex = -1;
 

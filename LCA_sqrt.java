@@ -1,3 +1,10 @@
+
+/*
+ *  Implementation of LCA algorithm using square root decomposition technique
+ *  Preprocesing complexity : O(n)
+ *  Query complexity : O(sqrt(n))
+ */
+
 import java.util.*;
 
 public class LCA_sqrt {
@@ -17,6 +24,7 @@ public class LCA_sqrt {
 
     }
 
+    // LCA query
     public TreeNode getLCA(int node1_value, int node2_value) {
 
         if (!nodeMap.containsKey(node1_value)) {
@@ -58,6 +66,7 @@ public class LCA_sqrt {
 
     }
 
+    // precompute the jump parents for each node
     private void getJumpParents(TreeNode node) {
         if (node == null) {
             return;
