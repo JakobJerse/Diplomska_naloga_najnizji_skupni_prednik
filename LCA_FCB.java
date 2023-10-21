@@ -40,11 +40,10 @@ public class LCA_FCB {
 
         buildHelperArrays();
         dfs(this.root);
-        preprocessBlocks(blockSize);
+        getMinOfEachBlock(blockSize);
         buildSparseTable();
         precomputeBlockBitMasks();
         precomputeBlocks();
-        System.out.println("test");
     }
 
     // construct the log2 and pow2 arrays
@@ -57,7 +56,8 @@ public class LCA_FCB {
 
     }
 
-    // perform depth first search on the tree and fills the eulerTourArray and the depthArray
+    // perform depth first search on the tree and fills the eulerTourArray and the
+    // depthArray
     private void dfs(TreeNode root) {
 
         if (root == null) {
@@ -80,7 +80,7 @@ public class LCA_FCB {
     }
 
     // precompute the minimum of each block
-    private void preprocessBlocks(int blockSize) {
+    private void getMinOfEachBlock(int blockSize) {
         minOfEachBlock = new int[numBlocks];
         blockStartingIndex = new int[numBlocks + 1];
 
@@ -96,7 +96,8 @@ public class LCA_FCB {
         }
     }
 
-    // build the sparse table based on the minimum of each block using dynamic programming
+    // build the sparse table based on the minimum of each block using dynamic
+    // programming
     private void buildSparseTable() {
         int p = (int) (Math.log(numBlocks) / Math.log(2));
         sparseTable = new int[p + 1][numBlocks];
@@ -163,8 +164,16 @@ public class LCA_FCB {
 
     // LCA query
     public TreeNode getLCA(int node1_value, int node2_value) {
-        int left = Math.min(firstAppearanceIndex[node1_value], firstAppearanceIndex[node2_value]);
 
+        if (node1_value < 1 || node1_value > numNodes) {
+            throw new IllegalArgumentException("Node1 not found");
+        } else if (node2_value < 1 || node2_value > numNodes) {
+            throw new IllegalArgumentException("Node2 not found");
+        } else if (node1_value < 1 || node1_value > numNodes && node2_value < 1 || node2_value > numNodes) {
+            throw new IllegalArgumentException("Both nodes not found");
+        }
+
+        int left = Math.min(firstAppearanceIndex[node1_value], firstAppearanceIndex[node2_value]);
         int right = Math.max(firstAppearanceIndex[node1_value], firstAppearanceIndex[node2_value]);
 
         int leftBlockIndex = left / blockSize;

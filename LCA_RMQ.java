@@ -36,7 +36,6 @@ public class LCA_RMQ {
         buildHelperArrays();
         dfs(this.root);
         buildSparseTable();
-        System.out.println("test");
     }
 
     // construct the log2 and pow2 arrays
@@ -113,6 +112,15 @@ public class LCA_RMQ {
 
     // LCA query
     public TreeNode getLCA(int node1_value, int node2_value) {
+        // handle invalid inputs
+        if (node1_value < 1 || node1_value > numNodes) {
+            throw new IllegalArgumentException("Node1 not found");
+        } else if (node2_value < 1 || node2_value > numNodes) {
+            throw new IllegalArgumentException("Node2 not found");
+        } else if (node1_value < 1 || node1_value > numNodes && node2_value < 1 || node2_value > numNodes) {
+            throw new IllegalArgumentException("Both nodes not found");
+        }
+
         int left = Math.min(firstAppearanceIndex[node1_value], firstAppearanceIndex[node2_value]);
         int right = Math.max(firstAppearanceIndex[node1_value], firstAppearanceIndex[node2_value]);
         int lcaIndex = query(left, right);
