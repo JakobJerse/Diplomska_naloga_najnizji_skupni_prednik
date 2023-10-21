@@ -13,7 +13,7 @@ V nadaljevanju so opisane posamezne datoteke, ki so razdeljene v sledeče skupin
 - :green_square:  [Rešitev z uporabo korenske dekompozicije drevesa](#rešitev-z-uporabo-korenske-dekompozicije-drevesa) **&lt;O(N), O($\sqrt{h}$)&gt;**,
 - :blue_square:   [Rešitev z uporabo tehnike binarnega dviga](#rešitev-z-uporabo-tehnike-binarnega-dviga), **&lt;O(N logN), O(log N)&gt;**
 - :purple_square: [Rešitev s prevedbo problema LCA na RMQ](#rešitev-s-prevedbo-problema-lca-na-rmq), **&lt;O(N logN), O(1)&gt;**,
-- :red-square:  [Rešitev z Farach-Colton in Bender-jevim algoritmom](#red_square-rešitev-z-farach-colton-in-bender-jevim-algoritmom) **&lt;O(N), O(1)&gt;**
+- :red_square:  [Rešitev z Farach-Colton in Bender-jevim algoritmom](#red_square-rešitev-z-farach-colton-in-bender-jevim-algoritmom) **&lt;O(N), O(1)&gt;**
 
 ###  :yellow_square: Pomožne datoteke:
 
