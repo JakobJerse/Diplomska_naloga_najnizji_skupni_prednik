@@ -8,24 +8,31 @@
 import java.util.*;
 
 public class LCA_FCB {
+
+    private long preprocessTime;
+    private long queryTime;
+
     TreeNode root;
-    int numNodes;
-    int p;
-    int blockSize;
-    int numBlocks;
-    int[] log2Array;
-    int[] pow2Array;
-    ArrayList<TreeNode> eulerTourArray;
-    ArrayList<Integer> depthArray;
-    int[] firstAppearanceIndex;
-    int eulerTourSize;
-    int[] minOfEachBlock;
-    int[] blockStartingIndex; // the starting index in the Euler tour for each block
-    int[] blockBitmasks;
-    int[][] sparseTable;
-    int[][][] precomputedBlocks;
+    private int numNodes;
+    private int p;
+    private int blockSize;
+    private int numBlocks;
+    private int[] log2Array;
+    private int[] pow2Array;
+    private ArrayList<TreeNode> eulerTourArray;
+    private ArrayList<Integer> depthArray;
+    private int[] firstAppearanceIndex;
+    private int eulerTourSize;
+    private int[] minOfEachBlock;
+    private int[] blockStartingIndex; // the starting index in the Euler tour for each block
+    private int[] blockBitmasks;
+    private int[][] sparseTable;
+    private int[][][] precomputedBlocks;
 
     public LCA_FCB(TreeNode root) {
+
+        long preprocessStartTime = System.nanoTime();
+
         this.root = root;
         this.numNodes = UtilMethods.getNumberOfNoodes(root);
         this.eulerTourSize = 2 * numNodes - 1;
@@ -44,6 +51,9 @@ public class LCA_FCB {
         buildSparseTable();
         precomputeBlockBitMasks();
         precomputeBlocks();
+
+        long preprocessEndTime = System.nanoTime();
+        preprocessTime = preprocessEndTime - preprocessStartTime;
     }
 
     // construct the log2 and pow2 arrays
@@ -165,6 +175,8 @@ public class LCA_FCB {
     // LCA query
     public TreeNode getLCA(int node1_value, int node2_value) {
 
+        long queryStartTime = System.nanoTime();
+
         if (node1_value < 1 || node1_value > numNodes) {
             throw new IllegalArgumentException("Node1 not found");
         } else if (node2_value < 1 || node2_value > numNodes) {
@@ -225,21 +237,35 @@ public class LCA_FCB {
             // final minimum calculation
             int tempLcaIndex = 0;
 
-            if (depthArray.get(minSuffixLeftBlock) < depthArray.get(minPrefixRightBlock))
+            if (depthArray.get(minSuffixLeftBlock) < depthArray.get(minPrefixRightBlock)) {
                 tempLcaIndex = minSuffixLeftBlock;
-            else {
+
+            } else {
                 tempLcaIndex = minPrefixRightBlock;
             }
 
             int finalLcaIndex = 0;
-            if (depthArray.get(lcaIndex) < depthArray.get(tempLcaIndex))
+            if (depthArray.get(lcaIndex) < depthArray.get(tempLcaIndex)) {
+
                 finalLcaIndex = lcaIndex;
-            else
+            } else {
                 finalLcaIndex = tempLcaIndex;
+            }
+
+            long queryEndTime = System.nanoTime();
+            queryTime = queryEndTime - queryStartTime;
 
             return eulerTourArray.get(finalLcaIndex);
 
         }
+    }
+
+    public long getPreprocessTime() {
+        return preprocessTime;
+    }
+
+    public long getQueryTime() {
+        return queryTime;
     }
 
 }

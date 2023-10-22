@@ -9,8 +9,12 @@ import java.util.ArrayList;
 
 public class LCA_recursion {
 
+    private long queryTime;
+
     // LCA query
     public TreeNode getLCA(TreeNode root, int node1_value, int node2_value) {
+
+        long startTime = System.nanoTime();
 
         ArrayList<TreeNode> path1 = new ArrayList<>();
         ArrayList<TreeNode> path2 = new ArrayList<>();
@@ -35,6 +39,9 @@ public class LCA_recursion {
             }
         }
 
+        long endTime = System.nanoTime();
+        queryTime = endTime - startTime;
+
         return path1.get(LCA_index);
     }
 
@@ -58,5 +65,9 @@ public class LCA_recursion {
 
         path.remove(path.size() - 1);
         return false;
+    }
+
+    public long getQueryTime() {
+        return queryTime;
     }
 }

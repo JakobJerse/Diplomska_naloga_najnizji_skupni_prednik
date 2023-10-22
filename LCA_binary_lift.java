@@ -8,23 +8,34 @@
 import java.util.*;
 
 public class LCA_binary_lift {
+
+    private long preprocessTime;
+    private long queryTime;
+
     TreeNode root;
-    TreeNode[][] ancestors;
-    int numNodes;
-    int numAncesstors;
-    Map<Integer, TreeNode> nodeMap;
+    private TreeNode[][] ancestors;
+    private int numNodes;
+    private int numAncesstors;
+    private Map<Integer, TreeNode> nodeMap;
 
     public LCA_binary_lift(TreeNode root) {
+        long preprocessStartTime = System.nanoTime();
+
         this.root = root;
         this.numNodes = UtilMethods.getNumberOfNoodes(root);
         this.numAncesstors = (int) Math.floor(Math.log(UtilMethods.height(root)) / Math.log(2));
         this.ancestors = new TreeNode[numNodes + 1][numAncesstors + 1];
         this.nodeMap = new HashMap<>();
         preprocess(root);
+
+        long preprocessEndTime = System.nanoTime();
+        preprocessTime = preprocessEndTime - preprocessStartTime;
     }
 
     // LCA query
     public TreeNode getLCA(int node1_value, int node2_value) {
+
+        long queryStartTime = System.nanoTime();
 
         if (!nodeMap.containsKey(node1_value)) {
             throw new IllegalArgumentException("Node1 not found");
@@ -64,6 +75,9 @@ public class LCA_binary_lift {
             }
         }
 
+        long queryEndTime = System.nanoTime();
+        queryTime = queryEndTime - queryStartTime;
+
         return ancestors[node1.getValue()][0];
     }
 
@@ -89,5 +103,13 @@ public class LCA_binary_lift {
         for (TreeNode child : root.children) {
             preprocess(child);
         }
+    }
+
+    public long getPreprocessTime() {
+        return preprocessTime;
+    }
+
+    public long getQueryTime() {
+        return queryTime;
     }
 }

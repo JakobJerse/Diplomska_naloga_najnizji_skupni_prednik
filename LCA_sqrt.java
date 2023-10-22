@@ -8,13 +8,19 @@
 import java.util.*;
 
 public class LCA_sqrt {
+
+    private long preprocessTime;
+    private long queryTime;
+
     TreeNode root;
-    int numNodes;
-    int blockSize;
-    TreeNode[] jumpParents;
-    Map<Integer, TreeNode> nodeMap;
+    private int numNodes;
+    private int blockSize;
+    private TreeNode[] jumpParents;
+    private Map<Integer, TreeNode> nodeMap;
 
     public LCA_sqrt(TreeNode root) {
+        long preprocessStartTime = System.nanoTime();
+
         this.root = root;
         this.numNodes = UtilMethods.getNumberOfNoodes(root);
         this.blockSize = (int) Math.sqrt(UtilMethods.height(root));
@@ -22,10 +28,14 @@ public class LCA_sqrt {
         this.nodeMap = new HashMap<>();
         getJumpParents(root);
 
+        long preprocessEndTime = System.nanoTime();
+        preprocessTime = preprocessEndTime - preprocessStartTime;
     }
 
     // LCA query
     public TreeNode getLCA(int node1_value, int node2_value) {
+
+        long queryStartTime = System.nanoTime();
 
         if (!nodeMap.containsKey(node1_value)) {
             throw new IllegalArgumentException("Node1 not found");
@@ -62,6 +72,9 @@ public class LCA_sqrt {
             node2 = node2.parent;
         }
 
+        long queryEndTime = System.nanoTime();
+        queryTime = queryEndTime - queryStartTime;
+
         return node1;
 
     }
@@ -82,6 +95,14 @@ public class LCA_sqrt {
         for (TreeNode child : node.children) {
             getJumpParents(child);
         }
+    }
+
+    public long getPreprocessTime() {
+        return preprocessTime;
+    }
+
+    public long getQueryTime() {
+        return queryTime;
     }
 
 }

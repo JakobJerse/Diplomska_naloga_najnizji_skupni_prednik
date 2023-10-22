@@ -5,6 +5,8 @@ Repozitorij vsebuje izvorno kodo petih različnih implementacij diplomske naloge
 ## Uporaba:
 Ko si uporabnik naloži repozitorij z izvorno kodo, preprosto požene datoteko **Main.java** in sledi navodilom v ukazni vrstici.
 
+---
+
 ## Opis datotek:
 V nadaljevanju so opisane posamezne datoteke, ki so razdeljene v sledeče skupine: 
 
@@ -14,6 +16,8 @@ V nadaljevanju so opisane posamezne datoteke, ki so razdeljene v sledeče skupin
 - :blue_square:   [Rešitev z uporabo tehnike binarnega dviga](#rešitev-z-uporabo-tehnike-binarnega-dviga), **&lt;O(N logN), O(log N)&gt;**
 - :purple_square: [Rešitev s prevedbo problema LCA na RMQ](#rešitev-s-prevedbo-problema-lca-na-rmq), **&lt;O(N logN), O(1)&gt;**,
 - :red_square:  [Rešitev z Farach-Colton in Bender-jevim algoritmom](#red_square-rešitev-z-farach-colton-in-bender-jevim-algoritmom) **&lt;O(N), O(1)&gt;**
+
+---
 
 ###  :yellow_square: Pomožne datoteke:
 
@@ -190,7 +194,7 @@ Razred vsebuje 2 metodi:
     + **private void buildHelperArrays()** &rarr; zapolni tabeli *log2Array* in *pow2Array* z vrednostmi dvojiških logaritmov in potenc števila dve za dani indeks.
     + **private void dfs(TreeNode root)** &rarr: izvede iskanje v globino in s tem Eulerjev obhod drevesa, ter napolni tabele *eulerTourArray*,  *depthArray* in *firstAppearanceIndex*. 
     + **private void getMinOfEachBlock(int blockSize)** &rarr; sprejme parameter *blockSize*, ki določa velikost posameznega bloka *depthArraya* in za vsak blok v *depthArray* poišče element z najmanjšo globino in njegov indeks shrani v tabelo *minOfEachBlock*.
-    + ** private void buildSparseTable()** &rarr; zgradi tabelo na podlagi tabele *minOfEachBlock* z uporabo dinamičnega programiranja. Tabela shranjuje indekse vozlišč z najmanjšo globino za vse možne razpone dolžin, ki so potence števila dve, kar omogoča hitro iskanje najmanjše vrednosti na določenem intervalu.
+    + **private void buildSparseTable()** &rarr; zgradi tabelo na podlagi tabele *minOfEachBlock* z uporabo dinamičnega programiranja. Tabela shranjuje indekse vozlišč z najmanjšo globino za vse možne razpone dolžin, ki so potence števila dve, kar omogoča hitro iskanje najmanjše vrednosti na določenem intervalu.
     + **private void precomputedBlockBitMasks()** &rarr; metoda vnaprej izračuna bitne maske za posamezen blok. Vsak bit maske predstavlja smer spremembe globine med dvema zaporednima vozliščema v bloku, kjer 1 označuje naraščanje in 0 označuje zmanjšanje ali enakost.
     + **private void precomputeBlocks()** &rarr; metoda vnaprej izračuna LCA za vse možne podintervale posameznega bloka in njihove indekse shrani v tabelo **precomputedBlocks[blockMask][start][end]**, kjer *blockMask* predstavlja bitnoMasko bloka, *start* levi indeks intervala in *right* desni indeks podintervala. Ker ima lahko več blokov enako bitno masko in bo rezultat v tem primeru enak, izračune izvedemo tolikokrat, kolikor je različnih bitnih mask.
     + **public TreeNode getLCA (int node1_value, int node2_value)** &rarr;  metoda sprejme vrednosti *node1_value* in *node2_value*, ki predstavljata vrednosti vozlišč, za kateri želimo poiskati najnižjega skupnega prednika. V primeru, da podane vrednosti ne obstajajo, metoda vrne ustrezno izjemo. Nato metoda določi indekse blokov, v katerih se nahajata prvi pojavitvi iskanih vozlišč - *leftBlockIndex* in *rightBlockIndex*. 

@@ -1,0 +1,60 @@
+1.tree with  11 nodes results 
+55195
+14013
+9160
+4814
+6665
+2.tree with  31 nodes results 
+35011
+10274
+4608
+2127
+5062
+3.tree with  2 nodes results 
+8827
+7507
+0
+1787
+2927
+4.tree with  71 nodes results 
+35459
+9335
+10036
+2766
+4299
+5.tree with  35 nodes results 
+26558
+8433
+15457
+2456
+3844
+6.tree with  127 nodes results 
+70621
+9698
+5139
+4179
+5192
+7.tree with  255 nodes results 
+279564
+18520
+10003
+3678
+5131
+8.tree with  511 nodes results 
+115270
+14693
+10092
+3588
+5376
+9.tree with  1023 nodes results 
+244615
+9010
+8906
+3561
+4818
+10.tree with  2047 nodes results 
+512443
+10854
+11207
+2057
+7591

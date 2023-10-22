@@ -8,19 +8,25 @@
 import java.util.*;
 
 public class LCA_RMQ {
+
+    private long preprocessTime;
+    private long queryTime;
+
     TreeNode root;
-    int numNodes;
-    int p;
-    ArrayList<TreeNode> eulerTourArray;
-    ArrayList<Integer> depthArray;
-    int[] firstAppearanceIndex;
-    int[] log2Array;
-    int[] pow2Array;
-    int size;
-    int[][] sparseTable;
-    int[][] indexTable;
+    private int numNodes;
+    private int p;
+    private ArrayList<TreeNode> eulerTourArray;
+    private ArrayList<Integer> depthArray;
+    private int[] firstAppearanceIndex;
+    private int[] log2Array;
+    private int[] pow2Array;
+    private int size;
+    private int[][] sparseTable;
+    private int[][] indexTable;
 
     public LCA_RMQ(TreeNode root) {
+        long preprocessStartTime = System.nanoTime();
+
         this.root = root;
         this.numNodes = UtilMethods.getNumberOfNoodes(root);
         this.size = 2 * numNodes - 1;
@@ -36,6 +42,9 @@ public class LCA_RMQ {
         buildHelperArrays();
         dfs(this.root);
         buildSparseTable();
+
+        long preprocessEndTime = System.nanoTime();
+        preprocessTime = preprocessEndTime - preprocessStartTime;
     }
 
     // construct the log2 and pow2 arrays
@@ -112,6 +121,8 @@ public class LCA_RMQ {
 
     // LCA query
     public TreeNode getLCA(int node1_value, int node2_value) {
+        long queryStartTime = System.nanoTime();
+
         // handle invalid inputs
         if (node1_value < 1 || node1_value > numNodes) {
             throw new IllegalArgumentException("Node1 not found");
@@ -124,8 +135,19 @@ public class LCA_RMQ {
         int left = Math.min(firstAppearanceIndex[node1_value], firstAppearanceIndex[node2_value]);
         int right = Math.max(firstAppearanceIndex[node1_value], firstAppearanceIndex[node2_value]);
         int lcaIndex = query(left, right);
+
+        long queryEndTime = System.nanoTime();
+        queryTime = queryEndTime - queryStartTime;
+
         return eulerTourArray.get(lcaIndex);
 
     }
 
+    public long getPreprocessTime() {
+        return preprocessTime;
+    }
+
+    public long getQueryTime() {
+        return queryTime;
+    }
 }
