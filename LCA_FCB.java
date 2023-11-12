@@ -36,7 +36,7 @@ public class LCA_FCB {
         this.root = root;
         this.numNodes = UtilMethods.getNumberOfNoodes(root);
         this.eulerTourSize = 2 * numNodes - 1;
-        this.blockSize = (int) Math.floor(Math.log(numNodes) / Math.log(2));
+        this.blockSize = Math.max(1, (int) (Math.log(eulerTourSize) / Math.log(2)) / 2);
         this.numBlocks = (eulerTourSize + blockSize - 1) / blockSize;
         this.log2Array = new int[eulerTourSize + 1];
         this.pow2Array = new int[eulerTourSize + 1];

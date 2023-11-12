@@ -181,7 +181,7 @@ Razred vsebuje 2 metodi:
     + **int[] minOfEachBlock** &rarr; tabela, ki vsebuje vnaprej izračunane indekse elementov z najmanjšo globino v posameznem bloku.
     + **int[] blockStartingIndex** &rarr; tabela, ki za vsak blok hrani index, s katerim se pripadajoči blok začne.
     + **int[] blockBitmasks** &rarr; tabela, ki vsebuje vnaprej izračunane bitne maske za posamezen blok.
-    + ++int[][][] precomputedBlocks &rarr; tabela, ki vsebuje indekse najnižjih skupnih prednikov za vse možne podintervale znotraj posameznega bloka.
+    + **int[][][] precomputedBlocks** &rarr; tabela, ki vsebuje indekse najnižjih skupnih prednikov za vse možne podintervale znotraj posameznega bloka.
 
     <br>
 

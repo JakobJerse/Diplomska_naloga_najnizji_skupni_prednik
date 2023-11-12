@@ -2,7 +2,7 @@
 /*
  *  Implementation of LCA algorithm using square root decomposition technique
  *  Preprocesing complexity : O(n)
- *  Query complexity : O(sqrt(n))
+ *  Query complexity : O(sqrt(h))
  */
 
 import java.util.*;

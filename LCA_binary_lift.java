@@ -59,7 +59,6 @@ public class LCA_binary_lift {
         while (depthDiff != 0) {
             int largestBit = Integer.highestOneBit(depthDiff);
             int largestJumpIndex = (int) Math.floor(Math.log(largestBit) / Math.log(2));
-            ;
             node1 = ancestors[node1.getValue()][largestJumpIndex];
             depthDiff -= largestBit;
         }
