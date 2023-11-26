@@ -37,7 +37,7 @@ public class LCA_FCB {
         this.numNodes = UtilMethods.getNumberOfNoodes(root);
         this.eulerTourSize = 2 * numNodes - 1;
         this.blockSize = Math.max(1, (int) (Math.log(eulerTourSize) / Math.log(2)) / 2);
-        this.numBlocks = (eulerTourSize + blockSize - 1) / blockSize;
+        this.numBlocks = (int) Math.ceil((double) eulerTourSize / blockSize);
         this.log2Array = new int[eulerTourSize + 1];
         this.pow2Array = new int[eulerTourSize + 1];
         this.eulerTourArray = new ArrayList<>();
@@ -49,7 +49,7 @@ public class LCA_FCB {
         dfs(this.root);
         getMinOfEachBlock(blockSize);
         buildSparseTable();
-        precomputeBlockBitMasks();
+        precomputeBlockBitMasks2();
         precomputeBlocks();
 
         long preprocessEndTime = System.nanoTime();
@@ -129,6 +129,27 @@ public class LCA_FCB {
     private void precomputeBlockBitMasks() {
         for (int i = 0; i < numBlocks; i++) {
             int mask = 0;
+            int firstElementDepth = depthArray.get(blockStartingIndex[i]);
+
+            for (int j = 1; j < blockSize && blockStartingIndex[i] + j < eulerTourSize; j++) {
+                int currentIndex = blockStartingIndex[i] + j;
+                int currentDepth = depthArray.get(currentIndex);
+
+                int depthDiff = currentDepth - firstElementDepth;
+
+                if (depthDiff > 0) {
+                    mask |= (1 << (j - 1));
+                }
+            }
+
+            blockBitmasks[i] = mask;
+        }
+    }
+
+    // precompute the bitmasks for each block
+    private void precomputeBlockBitMasks2() {
+        for (int i = 0; i < numBlocks; i++) {
+            int mask = 0;
             for (int j = 1; j < blockSize && blockStartingIndex[i] + j < eulerTourSize; j++) {
                 int prevIndex = blockStartingIndex[i] + j - 1;
                 int currentIndex = blockStartingIndex[i] + j;
@@ -143,7 +164,8 @@ public class LCA_FCB {
         }
     }
 
-    // precompute the LCA for each possible subsequence of each block
+    // precompute the index of the minimum element for each possible subsequence of
+    // each block
     private void precomputeBlocks() {
         int max_num_sequences = (1 << (blockSize - 1)); // 2^(blockSize - 1)
         precomputedBlocks = new int[max_num_sequences][blockSize][blockSize];
@@ -156,14 +178,14 @@ public class LCA_FCB {
                 bitMasksSet.add(blockMask);
                 for (int start = 0; start < blockSize && blockStartingIndex[block] + start < eulerTourSize; start++) {
                     for (int end = start; end < blockSize && blockStartingIndex[block] + end < eulerTourSize; end++) {
-                        int lcaIndex = blockStartingIndex[block] + start;
+                        int minElementIndex = blockStartingIndex[block] + start;
                         for (int k = start + 1; k <= end; k++) {
                             int currIndex = blockStartingIndex[block] + k;
-                            if (depthArray.get(currIndex) < depthArray.get(lcaIndex)) {
-                                lcaIndex = currIndex;
+                            if (depthArray.get(currIndex) < depthArray.get(minElementIndex)) {
+                                minElementIndex = currIndex;
                             }
                         }
-                        precomputedBlocks[blockMask][start][end] = lcaIndex;
+                        precomputedBlocks[blockMask][start][end] = minElementIndex;
                     }
                 }
 

@@ -151,4 +151,32 @@ public class TreeGenerator {
         }
         return root;
     }
+
+    public void generateCompleteTreeTestSet(int numTrees, int numChildren) {
+        for (int i = 1; i <= numTrees; i++) {
+            currentLabel = 1;
+            TreeNode root = generateCompleteTree(i, numChildren);
+            String filename = "test_trees/complete_trees/complete_tree_with_height_" + i + ".ser";
+            saveTreeToFile(root, filename);
+        }
+    }
+
+    public void generateRandomTreeTestSet(int numTrees, int maxNumChildren) {
+        for (int i = 1; i <= numTrees; i++) {
+            currentLabel = 1;
+            TreeNode root = generateRandomTree(i, maxNumChildren);
+            String filename = "test_trees/random_trees/random_tree_with_height_" + i + ".ser";
+            saveTreeToFile(root, filename);
+        }
+
+    }
+
+    public void generateSkewedTreeTestSet(int numTrees) {
+        for (int i = 1; i <= numTrees; i++) {
+            currentLabel = 1;
+            TreeNode root = generateSkewedTree(i);
+            String filename = "test_trees/skewed_trees/skewed_tree_with_height_" + i + ".ser";
+            saveTreeToFile(root, filename);
+        }
+    }
 }

@@ -1,0 +1,2000 @@
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (2, 1)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (1, 2)
+LCA: 1
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (2, 2)
+LCA: 2
+Tree 1, Height 1, Query (1, 1)
+LCA: 1
+Tree 2, Height 2, Query (2, 3)
+LCA: 2
+Tree 2, Height 2, Query (3, 5)
+LCA: 2
+Tree 2, Height 2, Query (3, 5)
+LCA: 2
+Tree 2, Height 2, Query (3, 1)
+LCA: 1
+Tree 2, Height 2, Query (3, 3)
+LCA: 3
+Tree 2, Height 2, Query (3, 3)
+LCA: 3
+Tree 2, Height 2, Query (4, 1)
+LCA: 1
+Tree 2, Height 2, Query (4, 5)
+LCA: 2
+Tree 2, Height 2, Query (5, 3)
+LCA: 2
+Tree 2, Height 2, Query (2, 3)
+LCA: 2
+Tree 2, Height 2, Query (2, 2)
+LCA: 2
+Tree 2, Height 2, Query (5, 5)
+LCA: 5
+Tree 2, Height 2, Query (1, 1)
+LCA: 1
+Tree 2, Height 2, Query (5, 1)
+LCA: 1
+Tree 2, Height 2, Query (2, 4)
+LCA: 2
+Tree 2, Height 2, Query (3, 3)
+LCA: 3
+Tree 2, Height 2, Query (3, 3)
+LCA: 3
+Tree 2, Height 2, Query (1, 4)
+LCA: 1
+Tree 2, Height 2, Query (4, 5)
+LCA: 2
+Tree 2, Height 2, Query (4, 5)
+LCA: 2
+Tree 2, Height 2, Query (5, 2)
+LCA: 2
+Tree 2, Height 2, Query (4, 3)
+LCA: 2
+Tree 2, Height 2, Query (5, 5)
+LCA: 5
+Tree 2, Height 2, Query (1, 5)
+LCA: 1
+Tree 2, Height 2, Query (4, 4)
+LCA: 4
+Tree 2, Height 2, Query (2, 3)
+LCA: 2
+Tree 2, Height 2, Query (2, 3)
+LCA: 2
+Tree 2, Height 2, Query (5, 3)
+LCA: 2
+Tree 2, Height 2, Query (1, 4)
+LCA: 1
+Tree 2, Height 2, Query (4, 1)
+LCA: 1
+Tree 2, Height 2, Query (3, 2)
+LCA: 2
+Tree 2, Height 2, Query (4, 1)
+LCA: 1
+Tree 2, Height 2, Query (4, 3)
+LCA: 2
+Tree 2, Height 2, Query (4, 2)
+LCA: 2
+Tree 2, Height 2, Query (1, 2)
+LCA: 1
+Tree 2, Height 2, Query (1, 4)
+LCA: 1
+Tree 2, Height 2, Query (4, 3)
+LCA: 2
+Tree 2, Height 2, Query (4, 5)
+LCA: 2
+Tree 2, Height 2, Query (2, 2)
+LCA: 2
+Tree 2, Height 2, Query (5, 4)
+LCA: 2
+Tree 2, Height 2, Query (5, 4)
+LCA: 2
+Tree 2, Height 2, Query (4, 4)
+LCA: 4
+Tree 2, Height 2, Query (3, 2)
+LCA: 2
+Tree 2, Height 2, Query (1, 5)
+LCA: 1
+Tree 2, Height 2, Query (1, 5)
+LCA: 1
+Tree 2, Height 2, Query (2, 1)
+LCA: 1
+Tree 2, Height 2, Query (1, 2)
+LCA: 1
+Tree 2, Height 2, Query (2, 5)
+LCA: 2
+Tree 2, Height 2, Query (1, 3)
+LCA: 1
+Tree 2, Height 2, Query (5, 2)
+LCA: 2
+Tree 2, Height 2, Query (3, 3)
+LCA: 3
+Tree 2, Height 2, Query (3, 5)
+LCA: 2
+Tree 2, Height 2, Query (4, 3)
+LCA: 2
+Tree 2, Height 2, Query (1, 3)
+LCA: 1
+Tree 2, Height 2, Query (4, 4)
+LCA: 4
+Tree 2, Height 2, Query (2, 4)
+LCA: 2
+Tree 2, Height 2, Query (3, 2)
+LCA: 2
+Tree 2, Height 2, Query (4, 3)
+LCA: 2
+Tree 2, Height 2, Query (3, 5)
+LCA: 2
+Tree 2, Height 2, Query (1, 3)
+LCA: 1
+Tree 2, Height 2, Query (2, 3)
+LCA: 2
+Tree 2, Height 2, Query (4, 2)
+LCA: 2
+Tree 2, Height 2, Query (1, 5)
+LCA: 1
+Tree 2, Height 2, Query (5, 1)
+LCA: 1
+Tree 2, Height 2, Query (1, 5)
+LCA: 1
+Tree 2, Height 2, Query (3, 3)
+LCA: 3
+Tree 2, Height 2, Query (5, 2)
+LCA: 2
+Tree 2, Height 2, Query (2, 5)
+LCA: 2
+Tree 2, Height 2, Query (2, 5)
+LCA: 2
+Tree 2, Height 2, Query (3, 2)
+LCA: 2
+Tree 2, Height 2, Query (2, 4)
+LCA: 2
+Tree 2, Height 2, Query (4, 5)
+LCA: 2
+Tree 2, Height 2, Query (3, 5)
+LCA: 2
+Tree 2, Height 2, Query (1, 2)
+LCA: 1
+Tree 2, Height 2, Query (4, 2)
+LCA: 2
+Tree 2, Height 2, Query (1, 2)
+LCA: 1
+Tree 2, Height 2, Query (3, 4)
+LCA: 2
+Tree 2, Height 2, Query (2, 5)
+LCA: 2
+Tree 2, Height 2, Query (2, 4)
+LCA: 2
+Tree 2, Height 2, Query (5, 3)
+LCA: 2
+Tree 2, Height 2, Query (1, 4)
+LCA: 1
+Tree 2, Height 2, Query (1, 2)
+LCA: 1
+Tree 2, Height 2, Query (2, 2)
+LCA: 2
+Tree 2, Height 2, Query (4, 4)
+LCA: 4
+Tree 2, Height 2, Query (5, 4)
+LCA: 2
+Tree 2, Height 2, Query (1, 4)
+LCA: 1
+Tree 2, Height 2, Query (3, 1)
+LCA: 1
+Tree 2, Height 2, Query (4, 5)
+LCA: 2
+Tree 2, Height 2, Query (1, 1)
+LCA: 1
+Tree 2, Height 2, Query (1, 3)
+LCA: 1
+Tree 2, Height 2, Query (1, 1)
+LCA: 1
+Tree 2, Height 2, Query (5, 1)
+LCA: 1
+Tree 2, Height 2, Query (5, 1)
+LCA: 1
+Tree 2, Height 2, Query (3, 2)
+LCA: 2
+Tree 2, Height 2, Query (3, 3)
+LCA: 3
+Tree 2, Height 2, Query (4, 5)
+LCA: 2
+Tree 2, Height 2, Query (2, 5)
+LCA: 2
+Tree 2, Height 2, Query (3, 5)
+LCA: 2
+Tree 2, Height 2, Query (2, 1)
+LCA: 1
+Tree 2, Height 2, Query (4, 1)
+LCA: 1
+Tree 3, Height 3, Query (9, 3)
+LCA: 1
+Tree 3, Height 3, Query (2, 11)
+LCA: 1
+Tree 3, Height 3, Query (6, 7)
+LCA: 5
+Tree 3, Height 3, Query (11, 1)
+LCA: 1
+Tree 3, Height 3, Query (7, 9)
+LCA: 5
+Tree 3, Height 3, Query (11, 9)
+LCA: 8
+Tree 3, Height 3, Query (6, 6)
+LCA: 6
+Tree 3, Height 3, Query (11, 8)
+LCA: 8
+Tree 3, Height 3, Query (8, 11)
+LCA: 8
+Tree 3, Height 3, Query (8, 1)
+LCA: 1
+Tree 3, Height 3, Query (4, 2)
+LCA: 1
+Tree 3, Height 3, Query (2, 3)
+LCA: 2
+Tree 3, Height 3, Query (11, 6)
+LCA: 5
+Tree 3, Height 3, Query (3, 10)
+LCA: 1
+Tree 3, Height 3, Query (10, 10)
+LCA: 10
+Tree 3, Height 3, Query (3, 4)
+LCA: 1
+Tree 3, Height 3, Query (1, 11)
+LCA: 1
+Tree 3, Height 3, Query (3, 4)
+LCA: 1
+Tree 3, Height 3, Query (3, 3)
+LCA: 3
+Tree 3, Height 3, Query (9, 7)
+LCA: 5
+Tree 3, Height 3, Query (8, 11)
+LCA: 8
+Tree 3, Height 3, Query (9, 4)
+LCA: 1
+Tree 3, Height 3, Query (6, 4)
+LCA: 1
+Tree 3, Height 3, Query (2, 8)
+LCA: 1
+Tree 3, Height 3, Query (2, 6)
+LCA: 1
+Tree 3, Height 3, Query (6, 2)
+LCA: 1
+Tree 3, Height 3, Query (1, 10)
+LCA: 1
+Tree 3, Height 3, Query (3, 1)
+LCA: 1
+Tree 3, Height 3, Query (5, 6)
+LCA: 5
+Tree 3, Height 3, Query (7, 4)
+LCA: 1
+Tree 3, Height 3, Query (5, 10)
+LCA: 5
+Tree 3, Height 3, Query (10, 7)
+LCA: 5
+Tree 3, Height 3, Query (7, 9)
+LCA: 5
+Tree 3, Height 3, Query (8, 10)
+LCA: 8
+Tree 3, Height 3, Query (2, 6)
+LCA: 1
+Tree 3, Height 3, Query (4, 6)
+LCA: 1
+Tree 3, Height 3, Query (4, 6)
+LCA: 1
+Tree 3, Height 3, Query (9, 9)
+LCA: 9
+Tree 3, Height 3, Query (3, 10)
+LCA: 1
+Tree 3, Height 3, Query (10, 2)
+LCA: 1
+Tree 3, Height 3, Query (8, 5)
+LCA: 5
+Tree 3, Height 3, Query (8, 11)
+LCA: 8
+Tree 3, Height 3, Query (5, 2)
+LCA: 1
+Tree 3, Height 3, Query (2, 11)
+LCA: 1
+Tree 3, Height 3, Query (10, 11)
+LCA: 8
+Tree 3, Height 3, Query (10, 2)
+LCA: 1
+Tree 3, Height 3, Query (9, 4)
+LCA: 1
+Tree 3, Height 3, Query (7, 3)
+LCA: 1
+Tree 3, Height 3, Query (1, 2)
+LCA: 1
+Tree 3, Height 3, Query (7, 10)
+LCA: 5
+Tree 3, Height 3, Query (1, 7)
+LCA: 1
+Tree 3, Height 3, Query (11, 3)
+LCA: 1
+Tree 3, Height 3, Query (7, 10)
+LCA: 5
+Tree 3, Height 3, Query (6, 9)
+LCA: 5
+Tree 3, Height 3, Query (9, 6)
+LCA: 5
+Tree 3, Height 3, Query (10, 6)
+LCA: 5
+Tree 3, Height 3, Query (4, 6)
+LCA: 1
+Tree 3, Height 3, Query (2, 9)
+LCA: 1
+Tree 3, Height 3, Query (1, 10)
+LCA: 1
+Tree 3, Height 3, Query (2, 4)
+LCA: 1
+Tree 3, Height 3, Query (6, 10)
+LCA: 5
+Tree 3, Height 3, Query (1, 4)
+LCA: 1
+Tree 3, Height 3, Query (4, 2)
+LCA: 1
+Tree 3, Height 3, Query (5, 10)
+LCA: 5
+Tree 3, Height 3, Query (3, 2)
+LCA: 2
+Tree 3, Height 3, Query (1, 9)
+LCA: 1
+Tree 3, Height 3, Query (3, 4)
+LCA: 1
+Tree 3, Height 3, Query (3, 7)
+LCA: 1
+Tree 3, Height 3, Query (3, 8)
+LCA: 1
+Tree 3, Height 3, Query (8, 5)
+LCA: 5
+Tree 3, Height 3, Query (11, 5)
+LCA: 5
+Tree 3, Height 3, Query (7, 2)
+LCA: 1
+Tree 3, Height 3, Query (10, 9)
+LCA: 8
+Tree 3, Height 3, Query (6, 5)
+LCA: 5
+Tree 3, Height 3, Query (6, 5)
+LCA: 5
+Tree 3, Height 3, Query (6, 6)
+LCA: 6
+Tree 3, Height 3, Query (10, 4)
+LCA: 1
+Tree 3, Height 3, Query (7, 5)
+LCA: 5
+Tree 3, Height 3, Query (3, 10)
+LCA: 1
+Tree 3, Height 3, Query (3, 7)
+LCA: 1
+Tree 3, Height 3, Query (5, 2)
+LCA: 1
+Tree 3, Height 3, Query (11, 4)
+LCA: 1
+Tree 3, Height 3, Query (5, 5)
+LCA: 5
+Tree 3, Height 3, Query (11, 3)
+LCA: 1
+Tree 3, Height 3, Query (4, 10)
+LCA: 1
+Tree 3, Height 3, Query (1, 2)
+LCA: 1
+Tree 3, Height 3, Query (8, 6)
+LCA: 5
+Tree 3, Height 3, Query (8, 2)
+LCA: 1
+Tree 3, Height 3, Query (7, 4)
+LCA: 1
+Tree 3, Height 3, Query (10, 9)
+LCA: 8
+Tree 3, Height 3, Query (10, 10)
+LCA: 10
+Tree 3, Height 3, Query (1, 1)
+LCA: 1
+Tree 3, Height 3, Query (2, 4)
+LCA: 1
+Tree 3, Height 3, Query (8, 10)
+LCA: 8
+Tree 3, Height 3, Query (3, 7)
+LCA: 1
+Tree 3, Height 3, Query (5, 7)
+LCA: 5
+Tree 3, Height 3, Query (7, 4)
+LCA: 1
+Tree 3, Height 3, Query (4, 2)
+LCA: 1
+Tree 3, Height 3, Query (4, 11)
+LCA: 1
+Tree 3, Height 3, Query (1, 6)
+LCA: 1
+Tree 4, Height 4, Query (3, 1)
+LCA: 1
+Tree 4, Height 4, Query (1, 5)
+LCA: 1
+Tree 4, Height 4, Query (2, 6)
+LCA: 2
+Tree 4, Height 4, Query (1, 6)
+LCA: 1
+Tree 4, Height 4, Query (5, 6)
+LCA: 4
+Tree 4, Height 4, Query (3, 2)
+LCA: 2
+Tree 4, Height 4, Query (4, 1)
+LCA: 1
+Tree 4, Height 4, Query (1, 5)
+LCA: 1
+Tree 4, Height 4, Query (5, 6)
+LCA: 4
+Tree 4, Height 4, Query (2, 4)
+LCA: 2
+Tree 4, Height 4, Query (7, 4)
+LCA: 2
+Tree 4, Height 4, Query (1, 6)
+LCA: 1
+Tree 4, Height 4, Query (4, 3)
+LCA: 3
+Tree 4, Height 4, Query (2, 4)
+LCA: 2
+Tree 4, Height 4, Query (1, 4)
+LCA: 1
+Tree 4, Height 4, Query (7, 7)
+LCA: 7
+Tree 4, Height 4, Query (1, 4)
+LCA: 1
+Tree 4, Height 4, Query (4, 2)
+LCA: 2
+Tree 4, Height 4, Query (4, 5)
+LCA: 4
+Tree 4, Height 4, Query (6, 2)
+LCA: 2
+Tree 4, Height 4, Query (4, 4)
+LCA: 4
+Tree 4, Height 4, Query (4, 3)
+LCA: 3
+Tree 4, Height 4, Query (3, 7)
+LCA: 2
+Tree 4, Height 4, Query (2, 3)
+LCA: 2
+Tree 4, Height 4, Query (5, 2)
+LCA: 2
+Tree 4, Height 4, Query (4, 5)
+LCA: 4
+Tree 4, Height 4, Query (1, 7)
+LCA: 1
+Tree 4, Height 4, Query (7, 5)
+LCA: 2
+Tree 4, Height 4, Query (5, 7)
+LCA: 2
+Tree 4, Height 4, Query (6, 5)
+LCA: 4
+Tree 4, Height 4, Query (6, 3)
+LCA: 3
+Tree 4, Height 4, Query (4, 3)
+LCA: 3
+Tree 4, Height 4, Query (3, 4)
+LCA: 3
+Tree 4, Height 4, Query (4, 6)
+LCA: 4
+Tree 4, Height 4, Query (7, 5)
+LCA: 2
+Tree 4, Height 4, Query (3, 1)
+LCA: 1
+Tree 4, Height 4, Query (4, 7)
+LCA: 2
+Tree 4, Height 4, Query (7, 1)
+LCA: 1
+Tree 4, Height 4, Query (2, 4)
+LCA: 2
+Tree 4, Height 4, Query (3, 3)
+LCA: 3
+Tree 4, Height 4, Query (4, 1)
+LCA: 1
+Tree 4, Height 4, Query (4, 3)
+LCA: 3
+Tree 4, Height 4, Query (7, 4)
+LCA: 2
+Tree 4, Height 4, Query (4, 2)
+LCA: 2
+Tree 4, Height 4, Query (7, 4)
+LCA: 2
+Tree 4, Height 4, Query (5, 2)
+LCA: 2
+Tree 4, Height 4, Query (2, 7)
+LCA: 2
+Tree 4, Height 4, Query (4, 1)
+LCA: 1
+Tree 4, Height 4, Query (3, 2)
+LCA: 2
+Tree 4, Height 4, Query (2, 1)
+LCA: 1
+Tree 4, Height 4, Query (5, 1)
+LCA: 1
+Tree 4, Height 4, Query (5, 2)
+LCA: 2
+Tree 4, Height 4, Query (6, 2)
+LCA: 2
+Tree 4, Height 4, Query (3, 5)
+LCA: 3
+Tree 4, Height 4, Query (5, 5)
+LCA: 5
+Tree 4, Height 4, Query (7, 1)
+LCA: 1
+Tree 4, Height 4, Query (4, 7)
+LCA: 2
+Tree 4, Height 4, Query (1, 6)
+LCA: 1
+Tree 4, Height 4, Query (4, 6)
+LCA: 4
+Tree 4, Height 4, Query (4, 2)
+LCA: 2
+Tree 4, Height 4, Query (2, 6)
+LCA: 2
+Tree 4, Height 4, Query (5, 4)
+LCA: 4
+Tree 4, Height 4, Query (5, 4)
+LCA: 4
+Tree 4, Height 4, Query (6, 1)
+LCA: 1
+Tree 4, Height 4, Query (4, 6)
+LCA: 4
+Tree 4, Height 4, Query (5, 3)
+LCA: 3
+Tree 4, Height 4, Query (3, 3)
+LCA: 3
+Tree 4, Height 4, Query (7, 2)
+LCA: 2
+Tree 4, Height 4, Query (3, 5)
+LCA: 3
+Tree 4, Height 4, Query (4, 3)
+LCA: 3
+Tree 4, Height 4, Query (2, 5)
+LCA: 2
+Tree 4, Height 4, Query (3, 4)
+LCA: 3
+Tree 4, Height 4, Query (4, 5)
+LCA: 4
+Tree 4, Height 4, Query (6, 3)
+LCA: 3
+Tree 4, Height 4, Query (7, 1)
+LCA: 1
+Tree 4, Height 4, Query (6, 5)
+LCA: 4
+Tree 4, Height 4, Query (6, 5)
+LCA: 4
+Tree 4, Height 4, Query (6, 2)
+LCA: 2
+Tree 4, Height 4, Query (7, 6)
+LCA: 2
+Tree 4, Height 4, Query (1, 3)
+LCA: 1
+Tree 4, Height 4, Query (5, 3)
+LCA: 3
+Tree 4, Height 4, Query (3, 1)
+LCA: 1
+Tree 4, Height 4, Query (4, 2)
+LCA: 2
+Tree 4, Height 4, Query (7, 3)
+LCA: 2
+Tree 4, Height 4, Query (1, 5)
+LCA: 1
+Tree 4, Height 4, Query (6, 3)
+LCA: 3
+Tree 4, Height 4, Query (2, 2)
+LCA: 2
+Tree 4, Height 4, Query (7, 4)
+LCA: 2
+Tree 4, Height 4, Query (5, 4)
+LCA: 4
+Tree 4, Height 4, Query (4, 7)
+LCA: 2
+Tree 4, Height 4, Query (2, 5)
+LCA: 2
+Tree 4, Height 4, Query (2, 2)
+LCA: 2
+Tree 4, Height 4, Query (6, 4)
+LCA: 4
+Tree 4, Height 4, Query (7, 6)
+LCA: 2
+Tree 4, Height 4, Query (4, 3)
+LCA: 3
+Tree 4, Height 4, Query (7, 4)
+LCA: 2
+Tree 4, Height 4, Query (3, 2)
+LCA: 2
+Tree 4, Height 4, Query (2, 5)
+LCA: 2
+Tree 4, Height 4, Query (3, 2)
+LCA: 2
+Tree 4, Height 4, Query (5, 3)
+LCA: 3
+Tree 5, Height 5, Query (19, 4)
+LCA: 3
+Tree 5, Height 5, Query (16, 15)
+LCA: 15
+Tree 5, Height 5, Query (18, 11)
+LCA: 3
+Tree 5, Height 5, Query (27, 12)
+LCA: 1
+Tree 5, Height 5, Query (16, 24)
+LCA: 15
+Tree 5, Height 5, Query (2, 13)
+LCA: 2
+Tree 5, Height 5, Query (10, 27)
+LCA: 1
+Tree 5, Height 5, Query (14, 15)
+LCA: 3
+Tree 5, Height 5, Query (8, 3)
+LCA: 3
+Tree 5, Height 5, Query (12, 27)
+LCA: 1
+Tree 5, Height 5, Query (17, 20)
+LCA: 15
+Tree 5, Height 5, Query (26, 3)
+LCA: 1
+Tree 5, Height 5, Query (13, 4)
+LCA: 4
+Tree 5, Height 5, Query (19, 24)
+LCA: 15
+Tree 5, Height 5, Query (1, 10)
+LCA: 1
+Tree 5, Height 5, Query (2, 8)
+LCA: 2
+Tree 5, Height 5, Query (14, 24)
+LCA: 3
+Tree 5, Height 5, Query (5, 16)
+LCA: 3
+Tree 5, Height 5, Query (15, 6)
+LCA: 3
+Tree 5, Height 5, Query (15, 26)
+LCA: 1
+Tree 5, Height 5, Query (18, 26)
+LCA: 1
+Tree 5, Height 5, Query (26, 18)
+LCA: 1
+Tree 5, Height 5, Query (17, 17)
+LCA: 17
+Tree 5, Height 5, Query (19, 15)
+LCA: 15
+Tree 5, Height 5, Query (1, 11)
+LCA: 1
+Tree 5, Height 5, Query (1, 5)
+LCA: 1
+Tree 5, Height 5, Query (21, 12)
+LCA: 3
+Tree 5, Height 5, Query (18, 1)
+LCA: 1
+Tree 5, Height 5, Query (10, 11)
+LCA: 4
+Tree 5, Height 5, Query (27, 23)
+LCA: 1
+Tree 5, Height 5, Query (27, 1)
+LCA: 1
+Tree 5, Height 5, Query (22, 15)
+LCA: 15
+Tree 5, Height 5, Query (26, 5)
+LCA: 1
+Tree 5, Height 5, Query (15, 19)
+LCA: 15
+Tree 5, Height 5, Query (10, 8)
+LCA: 7
+Tree 5, Height 5, Query (6, 7)
+LCA: 4
+Tree 5, Height 5, Query (13, 9)
+LCA: 4
+Tree 5, Height 5, Query (20, 3)
+LCA: 3
+Tree 5, Height 5, Query (12, 12)
+LCA: 12
+Tree 5, Height 5, Query (23, 25)
+LCA: 15
+Tree 5, Height 5, Query (14, 12)
+LCA: 11
+Tree 5, Height 5, Query (14, 19)
+LCA: 3
+Tree 5, Height 5, Query (21, 6)
+LCA: 3
+Tree 5, Height 5, Query (22, 11)
+LCA: 3
+Tree 5, Height 5, Query (7, 8)
+LCA: 7
+Tree 5, Height 5, Query (19, 22)
+LCA: 15
+Tree 5, Height 5, Query (10, 5)
+LCA: 4
+Tree 5, Height 5, Query (17, 13)
+LCA: 3
+Tree 5, Height 5, Query (20, 3)
+LCA: 3
+Tree 5, Height 5, Query (19, 22)
+LCA: 15
+Tree 5, Height 5, Query (9, 1)
+LCA: 1
+Tree 5, Height 5, Query (20, 7)
+LCA: 3
+Tree 5, Height 5, Query (23, 25)
+LCA: 15
+Tree 5, Height 5, Query (12, 16)
+LCA: 3
+Tree 5, Height 5, Query (27, 12)
+LCA: 1
+Tree 5, Height 5, Query (11, 6)
+LCA: 4
+Tree 5, Height 5, Query (23, 2)
+LCA: 2
+Tree 5, Height 5, Query (19, 12)
+LCA: 3
+Tree 5, Height 5, Query (2, 3)
+LCA: 2
+Tree 5, Height 5, Query (9, 14)
+LCA: 4
+Tree 5, Height 5, Query (15, 16)
+LCA: 15
+Tree 5, Height 5, Query (27, 12)
+LCA: 1
+Tree 5, Height 5, Query (15, 9)
+LCA: 3
+Tree 5, Height 5, Query (22, 24)
+LCA: 15
+Tree 5, Height 5, Query (19, 20)
+LCA: 18
+Tree 5, Height 5, Query (3, 8)
+LCA: 3
+Tree 5, Height 5, Query (3, 11)
+LCA: 3
+Tree 5, Height 5, Query (2, 6)
+LCA: 2
+Tree 5, Height 5, Query (24, 9)
+LCA: 3
+Tree 5, Height 5, Query (13, 2)
+LCA: 2
+Tree 5, Height 5, Query (14, 12)
+LCA: 11
+Tree 5, Height 5, Query (13, 18)
+LCA: 3
+Tree 5, Height 5, Query (21, 1)
+LCA: 1
+Tree 5, Height 5, Query (6, 23)
+LCA: 3
+Tree 5, Height 5, Query (16, 1)
+LCA: 1
+Tree 5, Height 5, Query (1, 6)
+LCA: 1
+Tree 5, Height 5, Query (18, 17)
+LCA: 15
+Tree 5, Height 5, Query (5, 12)
+LCA: 4
+Tree 5, Height 5, Query (18, 27)
+LCA: 1
+Tree 5, Height 5, Query (12, 21)
+LCA: 3
+Tree 5, Height 5, Query (6, 11)
+LCA: 4
+Tree 5, Height 5, Query (12, 5)
+LCA: 4
+Tree 5, Height 5, Query (5, 7)
+LCA: 4
+Tree 5, Height 5, Query (18, 24)
+LCA: 15
+Tree 5, Height 5, Query (5, 7)
+LCA: 4
+Tree 5, Height 5, Query (24, 23)
+LCA: 15
+Tree 5, Height 5, Query (17, 24)
+LCA: 15
+Tree 5, Height 5, Query (23, 10)
+LCA: 3
+Tree 5, Height 5, Query (14, 20)
+LCA: 3
+Tree 5, Height 5, Query (12, 15)
+LCA: 3
+Tree 5, Height 5, Query (22, 18)
+LCA: 15
+Tree 5, Height 5, Query (4, 22)
+LCA: 3
+Tree 5, Height 5, Query (7, 9)
+LCA: 7
+Tree 5, Height 5, Query (22, 2)
+LCA: 2
+Tree 5, Height 5, Query (7, 22)
+LCA: 3
+Tree 5, Height 5, Query (4, 20)
+LCA: 3
+Tree 5, Height 5, Query (18, 14)
+LCA: 3
+Tree 5, Height 5, Query (27, 16)
+LCA: 1
+Tree 5, Height 5, Query (18, 13)
+LCA: 3
+Tree 5, Height 5, Query (1, 27)
+LCA: 1
+Tree 6, Height 6, Query (12, 5)
+LCA: 4
+Tree 6, Height 6, Query (14, 76)
+LCA: 2
+Tree 6, Height 6, Query (22, 21)
+LCA: 20
+Tree 6, Height 6, Query (51, 11)
+LCA: 3
+Tree 6, Height 6, Query (22, 20)
+LCA: 20
+Tree 6, Height 6, Query (106, 62)
+LCA: 1
+Tree 6, Height 6, Query (77, 89)
+LCA: 1
+Tree 6, Height 6, Query (37, 34)
+LCA: 27
+Tree 6, Height 6, Query (97, 42)
+LCA: 1
+Tree 6, Height 6, Query (10, 56)
+LCA: 2
+Tree 6, Height 6, Query (96, 104)
+LCA: 80
+Tree 6, Height 6, Query (92, 54)
+LCA: 1
+Tree 6, Height 6, Query (88, 51)
+LCA: 1
+Tree 6, Height 6, Query (93, 51)
+LCA: 1
+Tree 6, Height 6, Query (33, 40)
+LCA: 27
+Tree 6, Height 6, Query (45, 92)
+LCA: 1
+Tree 6, Height 6, Query (73, 30)
+LCA: 2
+Tree 6, Height 6, Query (78, 98)
+LCA: 78
+Tree 6, Height 6, Query (65, 60)
+LCA: 60
+Tree 6, Height 6, Query (91, 93)
+LCA: 81
+Tree 6, Height 6, Query (1, 34)
+LCA: 1
+Tree 6, Height 6, Query (8, 11)
+LCA: 8
+Tree 6, Height 6, Query (86, 37)
+LCA: 1
+Tree 6, Height 6, Query (74, 26)
+LCA: 2
+Tree 6, Height 6, Query (36, 60)
+LCA: 2
+Tree 6, Height 6, Query (39, 104)
+LCA: 1
+Tree 6, Height 6, Query (2, 98)
+LCA: 1
+Tree 6, Height 6, Query (17, 27)
+LCA: 3
+Tree 6, Height 6, Query (12, 60)
+LCA: 2
+Tree 6, Height 6, Query (22, 85)
+LCA: 1
+Tree 6, Height 6, Query (75, 61)
+LCA: 60
+Tree 6, Height 6, Query (58, 39)
+LCA: 2
+Tree 6, Height 6, Query (51, 23)
+LCA: 3
+Tree 6, Height 6, Query (37, 17)
+LCA: 3
+Tree 6, Height 6, Query (39, 70)
+LCA: 2
+Tree 6, Height 6, Query (55, 104)
+LCA: 1
+Tree 6, Height 6, Query (89, 103)
+LCA: 80
+Tree 6, Height 6, Query (8, 36)
+LCA: 3
+Tree 6, Height 6, Query (61, 59)
+LCA: 59
+Tree 6, Height 6, Query (54, 19)
+LCA: 3
+Tree 6, Height 6, Query (86, 1)
+LCA: 1
+Tree 6, Height 6, Query (23, 91)
+LCA: 1
+Tree 6, Height 6, Query (87, 92)
+LCA: 81
+Tree 6, Height 6, Query (54, 74)
+LCA: 2
+Tree 6, Height 6, Query (45, 16)
+LCA: 3
+Tree 6, Height 6, Query (18, 70)
+LCA: 2
+Tree 6, Height 6, Query (60, 23)
+LCA: 2
+Tree 6, Height 6, Query (2, 101)
+LCA: 1
+Tree 6, Height 6, Query (85, 16)
+LCA: 1
+Tree 6, Height 6, Query (62, 38)
+LCA: 2
+Tree 6, Height 6, Query (99, 47)
+LCA: 1
+Tree 6, Height 6, Query (107, 45)
+LCA: 1
+Tree 6, Height 6, Query (96, 44)
+LCA: 1
+Tree 6, Height 6, Query (28, 70)
+LCA: 2
+Tree 6, Height 6, Query (78, 24)
+LCA: 1
+Tree 6, Height 6, Query (37, 66)
+LCA: 2
+Tree 6, Height 6, Query (76, 44)
+LCA: 2
+Tree 6, Height 6, Query (40, 90)
+LCA: 1
+Tree 6, Height 6, Query (5, 93)
+LCA: 1
+Tree 6, Height 6, Query (27, 46)
+LCA: 27
+Tree 6, Height 6, Query (82, 58)
+LCA: 1
+Tree 6, Height 6, Query (91, 88)
+LCA: 88
+Tree 6, Height 6, Query (102, 45)
+LCA: 1
+Tree 6, Height 6, Query (39, 52)
+LCA: 27
+Tree 6, Height 6, Query (76, 63)
+LCA: 2
+Tree 6, Height 6, Query (1, 76)
+LCA: 1
+Tree 6, Height 6, Query (5, 44)
+LCA: 3
+Tree 6, Height 6, Query (68, 90)
+LCA: 1
+Tree 6, Height 6, Query (16, 47)
+LCA: 3
+Tree 6, Height 6, Query (45, 96)
+LCA: 1
+Tree 6, Height 6, Query (73, 18)
+LCA: 2
+Tree 6, Height 6, Query (71, 68)
+LCA: 67
+Tree 6, Height 6, Query (18, 103)
+LCA: 1
+Tree 6, Height 6, Query (92, 71)
+LCA: 1
+Tree 6, Height 6, Query (11, 46)
+LCA: 3
+Tree 6, Height 6, Query (27, 106)
+LCA: 1
+Tree 6, Height 6, Query (20, 61)
+LCA: 2
+Tree 6, Height 6, Query (76, 32)
+LCA: 2
+Tree 6, Height 6, Query (84, 85)
+LCA: 83
+Tree 6, Height 6, Query (30, 76)
+LCA: 2
+Tree 6, Height 6, Query (104, 104)
+LCA: 104
+Tree 6, Height 6, Query (88, 87)
+LCA: 81
+Tree 6, Height 6, Query (57, 53)
+LCA: 2
+Tree 6, Height 6, Query (11, 57)
+LCA: 2
+Tree 6, Height 6, Query (59, 93)
+LCA: 1
+Tree 6, Height 6, Query (95, 57)
+LCA: 1
+Tree 6, Height 6, Query (23, 60)
+LCA: 2
+Tree 6, Height 6, Query (75, 47)
+LCA: 2
+Tree 6, Height 6, Query (31, 31)
+LCA: 31
+Tree 6, Height 6, Query (9, 56)
+LCA: 2
+Tree 6, Height 6, Query (30, 65)
+LCA: 2
+Tree 6, Height 6, Query (62, 3)
+LCA: 2
+Tree 6, Height 6, Query (15, 32)
+LCA: 3
+Tree 6, Height 6, Query (74, 31)
+LCA: 2
+Tree 6, Height 6, Query (30, 77)
+LCA: 2
+Tree 6, Height 6, Query (61, 45)
+LCA: 2
+Tree 6, Height 6, Query (75, 89)
+LCA: 1
+Tree 6, Height 6, Query (5, 25)
+LCA: 4
+Tree 6, Height 6, Query (96, 86)
+LCA: 81
+Tree 6, Height 6, Query (22, 107)
+LCA: 1
+Tree 7, Height 7, Query (72, 88)
+LCA: 5
+Tree 7, Height 7, Query (6, 8)
+LCA: 6
+Tree 7, Height 7, Query (6, 45)
+LCA: 5
+Tree 7, Height 7, Query (58, 29)
+LCA: 25
+Tree 7, Height 7, Query (56, 95)
+LCA: 5
+Tree 7, Height 7, Query (5, 42)
+LCA: 5
+Tree 7, Height 7, Query (93, 5)
+LCA: 5
+Tree 7, Height 7, Query (69, 102)
+LCA: 4
+Tree 7, Height 7, Query (23, 79)
+LCA: 5
+Tree 7, Height 7, Query (15, 87)
+LCA: 5
+Tree 7, Height 7, Query (11, 9)
+LCA: 9
+Tree 7, Height 7, Query (81, 39)
+LCA: 5
+Tree 7, Height 7, Query (25, 47)
+LCA: 25
+Tree 7, Height 7, Query (79, 73)
+LCA: 68
+Tree 7, Height 7, Query (7, 84)
+LCA: 5
+Tree 7, Height 7, Query (48, 32)
+LCA: 25
+Tree 7, Height 7, Query (56, 65)
+LCA: 51
+Tree 7, Height 7, Query (39, 73)
+LCA: 5
+Tree 7, Height 7, Query (41, 6)
+LCA: 5
+Tree 7, Height 7, Query (93, 99)
+LCA: 4
+Tree 7, Height 7, Query (75, 6)
+LCA: 5
+Tree 7, Height 7, Query (15, 92)
+LCA: 5
+Tree 7, Height 7, Query (85, 102)
+LCA: 4
+Tree 7, Height 7, Query (15, 78)
+LCA: 5
+Tree 7, Height 7, Query (68, 48)
+LCA: 5
+Tree 7, Height 7, Query (63, 87)
+LCA: 5
+Tree 7, Height 7, Query (31, 56)
+LCA: 25
+Tree 7, Height 7, Query (100, 50)
+LCA: 4
+Tree 7, Height 7, Query (73, 90)
+LCA: 5
+Tree 7, Height 7, Query (62, 95)
+LCA: 5
+Tree 7, Height 7, Query (62, 69)
+LCA: 5
+Tree 7, Height 7, Query (95, 99)
+LCA: 4
+Tree 7, Height 7, Query (109, 61)
+LCA: 4
+Tree 7, Height 7, Query (1, 40)
+LCA: 1
+Tree 7, Height 7, Query (50, 91)
+LCA: 5
+Tree 7, Height 7, Query (97, 38)
+LCA: 5
+Tree 7, Height 7, Query (46, 49)
+LCA: 25
+Tree 7, Height 7, Query (87, 55)
+LCA: 5
+Tree 7, Height 7, Query (105, 14)
+LCA: 4
+Tree 7, Height 7, Query (6, 21)
+LCA: 6
+Tree 7, Height 7, Query (98, 107)
+LCA: 98
+Tree 7, Height 7, Query (78, 20)
+LCA: 5
+Tree 7, Height 7, Query (75, 106)
+LCA: 4
+Tree 7, Height 7, Query (102, 76)
+LCA: 4
+Tree 7, Height 7, Query (38, 83)
+LCA: 5
+Tree 7, Height 7, Query (89, 30)
+LCA: 5
+Tree 7, Height 7, Query (34, 25)
+LCA: 25
+Tree 7, Height 7, Query (56, 36)
+LCA: 25
+Tree 7, Height 7, Query (2, 51)
+LCA: 2
+Tree 7, Height 7, Query (62, 39)
+LCA: 25
+Tree 7, Height 7, Query (32, 43)
+LCA: 25
+Tree 7, Height 7, Query (49, 17)
+LCA: 5
+Tree 7, Height 7, Query (94, 47)
+LCA: 5
+Tree 7, Height 7, Query (56, 86)
+LCA: 5
+Tree 7, Height 7, Query (49, 100)
+LCA: 4
+Tree 7, Height 7, Query (47, 43)
+LCA: 25
+Tree 7, Height 7, Query (97, 83)
+LCA: 80
+Tree 7, Height 7, Query (3, 46)
+LCA: 2
+Tree 7, Height 7, Query (2, 71)
+LCA: 2
+Tree 7, Height 7, Query (8, 42)
+LCA: 5
+Tree 7, Height 7, Query (1, 70)
+LCA: 1
+Tree 7, Height 7, Query (28, 70)
+LCA: 5
+Tree 7, Height 7, Query (51, 83)
+LCA: 5
+Tree 7, Height 7, Query (9, 105)
+LCA: 4
+Tree 7, Height 7, Query (32, 80)
+LCA: 5
+Tree 7, Height 7, Query (68, 85)
+LCA: 5
+Tree 7, Height 7, Query (87, 101)
+LCA: 4
+Tree 7, Height 7, Query (63, 39)
+LCA: 25
+Tree 7, Height 7, Query (85, 82)
+LCA: 81
+Tree 7, Height 7, Query (16, 85)
+LCA: 5
+Tree 7, Height 7, Query (55, 49)
+LCA: 25
+Tree 7, Height 7, Query (20, 78)
+LCA: 5
+Tree 7, Height 7, Query (53, 102)
+LCA: 4
+Tree 7, Height 7, Query (69, 104)
+LCA: 4
+Tree 7, Height 7, Query (100, 92)
+LCA: 4
+Tree 7, Height 7, Query (109, 36)
+LCA: 4
+Tree 7, Height 7, Query (59, 106)
+LCA: 4
+Tree 7, Height 7, Query (5, 65)
+LCA: 5
+Tree 7, Height 7, Query (89, 59)
+LCA: 5
+Tree 7, Height 7, Query (103, 78)
+LCA: 4
+Tree 7, Height 7, Query (36, 4)
+LCA: 4
+Tree 7, Height 7, Query (94, 86)
+LCA: 80
+Tree 7, Height 7, Query (99, 23)
+LCA: 4
+Tree 7, Height 7, Query (98, 13)
+LCA: 4
+Tree 7, Height 7, Query (98, 79)
+LCA: 4
+Tree 7, Height 7, Query (108, 22)
+LCA: 4
+Tree 7, Height 7, Query (22, 12)
+LCA: 6
+Tree 7, Height 7, Query (73, 18)
+LCA: 5
+Tree 7, Height 7, Query (84, 73)
+LCA: 5
+Tree 7, Height 7, Query (2, 108)
+LCA: 2
+Tree 7, Height 7, Query (99, 31)
+LCA: 4
+Tree 7, Height 7, Query (49, 3)
+LCA: 2
+Tree 7, Height 7, Query (96, 31)
+LCA: 5
+Tree 7, Height 7, Query (15, 83)
+LCA: 5
+Tree 7, Height 7, Query (58, 109)
+LCA: 4
+Tree 7, Height 7, Query (23, 46)
+LCA: 5
+Tree 7, Height 7, Query (96, 89)
+LCA: 80
+Tree 7, Height 7, Query (105, 22)
+LCA: 4
+Tree 7, Height 7, Query (60, 29)
+LCA: 25
+Tree 7, Height 7, Query (19, 46)
+LCA: 5
+Tree 8, Height 8, Query (98, 44)
+LCA: 3
+Tree 8, Height 8, Query (13, 16)
+LCA: 13
+Tree 8, Height 8, Query (8, 49)
+LCA: 6
+Tree 8, Height 8, Query (95, 93)
+LCA: 88
+Tree 8, Height 8, Query (36, 106)
+LCA: 3
+Tree 8, Height 8, Query (22, 12)
+LCA: 7
+Tree 8, Height 8, Query (105, 73)
+LCA: 3
+Tree 8, Height 8, Query (63, 105)
+LCA: 3
+Tree 8, Height 8, Query (109, 31)
+LCA: 3
+Tree 8, Height 8, Query (40, 118)
+LCA: 3
+Tree 8, Height 8, Query (101, 81)
+LCA: 3
+Tree 8, Height 8, Query (57, 14)
+LCA: 6
+Tree 8, Height 8, Query (5, 106)
+LCA: 3
+Tree 8, Height 8, Query (115, 36)
+LCA: 3
+Tree 8, Height 8, Query (59, 35)
+LCA: 6
+Tree 8, Height 8, Query (65, 78)
+LCA: 6
+Tree 8, Height 8, Query (94, 61)
+LCA: 6
+Tree 8, Height 8, Query (53, 113)
+LCA: 3
+Tree 8, Height 8, Query (103, 5)
+LCA: 3
+Tree 8, Height 8, Query (70, 43)
+LCA: 6
+Tree 8, Height 8, Query (101, 63)
+LCA: 3
+Tree 8, Height 8, Query (63, 16)
+LCA: 6
+Tree 8, Height 8, Query (90, 102)
+LCA: 3
+Tree 8, Height 8, Query (82, 93)
+LCA: 69
+Tree 8, Height 8, Query (9, 93)
+LCA: 6
+Tree 8, Height 8, Query (29, 48)
+LCA: 26
+Tree 8, Height 8, Query (61, 14)
+LCA: 6
+Tree 8, Height 8, Query (83, 26)
+LCA: 6
+Tree 8, Height 8, Query (93, 58)
+LCA: 6
+Tree 8, Height 8, Query (56, 12)
+LCA: 6
+Tree 8, Height 8, Query (89, 2)
+LCA: 2
+Tree 8, Height 8, Query (119, 84)
+LCA: 2
+Tree 8, Height 8, Query (66, 12)
+LCA: 6
+Tree 8, Height 8, Query (10, 73)
+LCA: 6
+Tree 8, Height 8, Query (50, 104)
+LCA: 3
+Tree 8, Height 8, Query (56, 26)
+LCA: 6
+Tree 8, Height 8, Query (74, 104)
+LCA: 3
+Tree 8, Height 8, Query (39, 89)
+LCA: 6
+Tree 8, Height 8, Query (91, 95)
+LCA: 88
+Tree 8, Height 8, Query (92, 105)
+LCA: 3
+Tree 8, Height 8, Query (56, 54)
+LCA: 50
+Tree 8, Height 8, Query (116, 22)
+LCA: 3
+Tree 8, Height 8, Query (95, 44)
+LCA: 6
+Tree 8, Height 8, Query (56, 8)
+LCA: 6
+Tree 8, Height 8, Query (64, 48)
+LCA: 6
+Tree 8, Height 8, Query (104, 104)
+LCA: 104
+Tree 8, Height 8, Query (78, 51)
+LCA: 6
+Tree 8, Height 8, Query (40, 50)
+LCA: 6
+Tree 8, Height 8, Query (117, 12)
+LCA: 3
+Tree 8, Height 8, Query (70, 114)
+LCA: 3
+Tree 8, Height 8, Query (69, 89)
+LCA: 69
+Tree 8, Height 8, Query (119, 31)
+LCA: 2
+Tree 8, Height 8, Query (115, 92)
+LCA: 3
+Tree 8, Height 8, Query (96, 26)
+LCA: 6
+Tree 8, Height 8, Query (115, 21)
+LCA: 3
+Tree 8, Height 8, Query (63, 47)
+LCA: 6
+Tree 8, Height 8, Query (39, 92)
+LCA: 6
+Tree 8, Height 8, Query (106, 59)
+LCA: 3
+Tree 8, Height 8, Query (32, 117)
+LCA: 3
+Tree 8, Height 8, Query (113, 46)
+LCA: 3
+Tree 8, Height 8, Query (52, 82)
+LCA: 6
+Tree 8, Height 8, Query (60, 12)
+LCA: 6
+Tree 8, Height 8, Query (3, 6)
+LCA: 3
+Tree 8, Height 8, Query (104, 28)
+LCA: 3
+Tree 8, Height 8, Query (111, 30)
+LCA: 3
+Tree 8, Height 8, Query (42, 55)
+LCA: 6
+Tree 8, Height 8, Query (38, 24)
+LCA: 6
+Tree 8, Height 8, Query (62, 10)
+LCA: 6
+Tree 8, Height 8, Query (115, 13)
+LCA: 3
+Tree 8, Height 8, Query (9, 43)
+LCA: 6
+Tree 8, Height 8, Query (33, 28)
+LCA: 27
+Tree 8, Height 8, Query (106, 40)
+LCA: 3
+Tree 8, Height 8, Query (101, 44)
+LCA: 3
+Tree 8, Height 8, Query (79, 108)
+LCA: 3
+Tree 8, Height 8, Query (87, 100)
+LCA: 3
+Tree 8, Height 8, Query (104, 18)
+LCA: 3
+Tree 8, Height 8, Query (21, 16)
+LCA: 13
+Tree 8, Height 8, Query (115, 21)
+LCA: 3
+Tree 8, Height 8, Query (60, 67)
+LCA: 49
+Tree 8, Height 8, Query (54, 93)
+LCA: 6
+Tree 8, Height 8, Query (33, 96)
+LCA: 6
+Tree 8, Height 8, Query (38, 88)
+LCA: 6
+Tree 8, Height 8, Query (102, 77)
+LCA: 3
+Tree 8, Height 8, Query (88, 114)
+LCA: 3
+Tree 8, Height 8, Query (106, 10)
+LCA: 3
+Tree 8, Height 8, Query (58, 92)
+LCA: 6
+Tree 8, Height 8, Query (20, 55)
+LCA: 6
+Tree 8, Height 8, Query (35, 41)
+LCA: 26
+Tree 8, Height 8, Query (100, 20)
+LCA: 3
+Tree 8, Height 8, Query (85, 86)
+LCA: 84
+Tree 8, Height 8, Query (114, 63)
+LCA: 3
+Tree 8, Height 8, Query (12, 109)
+LCA: 3
+Tree 8, Height 8, Query (86, 75)
+LCA: 69
+Tree 8, Height 8, Query (65, 57)
+LCA: 49
+Tree 8, Height 8, Query (118, 38)
+LCA: 3
+Tree 8, Height 8, Query (47, 27)
+LCA: 26
+Tree 8, Height 8, Query (113, 1)
+LCA: 1
+Tree 8, Height 8, Query (34, 42)
+LCA: 26
+Tree 8, Height 8, Query (94, 113)
+LCA: 3
+Tree 8, Height 8, Query (49, 17)
+LCA: 6
+Tree 9, Height 9, Query (1705, 2518)
+LCA: 1
+Tree 9, Height 9, Query (39, 1411)
+LCA: 1
+Tree 9, Height 9, Query (1628, 1012)
+LCA: 803
+Tree 9, Height 9, Query (617, 2011)
+LCA: 1
+Tree 9, Height 9, Query (276, 167)
+LCA: 159
+Tree 9, Height 9, Query (230, 852)
+LCA: 1
+Tree 9, Height 9, Query (2045, 986)
+LCA: 803
+Tree 9, Height 9, Query (1798, 2231)
+LCA: 1652
+Tree 9, Height 9, Query (2058, 883)
+LCA: 803
+Tree 9, Height 9, Query (2230, 1918)
+LCA: 1652
+Tree 9, Height 9, Query (2589, 2573)
+LCA: 2369
+Tree 9, Height 9, Query (504, 992)
+LCA: 1
+Tree 9, Height 9, Query (1196, 657)
+LCA: 1
+Tree 9, Height 9, Query (1767, 2404)
+LCA: 1
+Tree 9, Height 9, Query (2120, 558)
+LCA: 1
+Tree 9, Height 9, Query (1761, 2370)
+LCA: 1
+Tree 9, Height 9, Query (400, 215)
+LCA: 3
+Tree 9, Height 9, Query (759, 669)
+LCA: 669
+Tree 9, Height 9, Query (1856, 628)
+LCA: 1
+Tree 9, Height 9, Query (1707, 1311)
+LCA: 803
+Tree 9, Height 9, Query (40, 1545)
+LCA: 1
+Tree 9, Height 9, Query (385, 736)
+LCA: 2
+Tree 9, Height 9, Query (1855, 1839)
+LCA: 1838
+Tree 9, Height 9, Query (429, 964)
+LCA: 1
+Tree 9, Height 9, Query (1958, 1069)
+LCA: 803
+Tree 9, Height 9, Query (2284, 332)
+LCA: 1
+Tree 9, Height 9, Query (2057, 1751)
+LCA: 1652
+Tree 9, Height 9, Query (242, 2121)
+LCA: 1
+Tree 9, Height 9, Query (1564, 1316)
+LCA: 1131
+Tree 9, Height 9, Query (1730, 491)
+LCA: 1
+Tree 9, Height 9, Query (2481, 1473)
+LCA: 1
+Tree 9, Height 9, Query (1478, 1729)
+LCA: 803
+Tree 9, Height 9, Query (1124, 1514)
+LCA: 803
+Tree 9, Height 9, Query (1667, 269)
+LCA: 1
+Tree 9, Height 9, Query (255, 760)
+LCA: 2
+Tree 9, Height 9, Query (1321, 805)
+LCA: 803
+Tree 9, Height 9, Query (2619, 1687)
+LCA: 1
+Tree 9, Height 9, Query (320, 1523)
+LCA: 1
+Tree 9, Height 9, Query (1215, 1012)
+LCA: 803
+Tree 9, Height 9, Query (1164, 1753)
+LCA: 803
+Tree 9, Height 9, Query (1231, 829)
+LCA: 803
+Tree 9, Height 9, Query (2547, 1059)
+LCA: 1
+Tree 9, Height 9, Query (2647, 2680)
+LCA: 2368
+Tree 9, Height 9, Query (76, 2431)
+LCA: 1
+Tree 9, Height 9, Query (352, 2196)
+LCA: 1
+Tree 9, Height 9, Query (1260, 1869)
+LCA: 803
+Tree 9, Height 9, Query (140, 1752)
+LCA: 1
+Tree 9, Height 9, Query (2250, 368)
+LCA: 1
+Tree 9, Height 9, Query (442, 149)
+LCA: 3
+Tree 9, Height 9, Query (1050, 419)
+LCA: 1
+Tree 9, Height 9, Query (411, 2609)
+LCA: 1
+Tree 9, Height 9, Query (1687, 215)
+LCA: 1
+Tree 9, Height 9, Query (163, 600)
+LCA: 2
+Tree 9, Height 9, Query (2190, 2189)
+LCA: 2189
+Tree 9, Height 9, Query (2308, 1838)
+LCA: 1652
+Tree 9, Height 9, Query (852, 1248)
+LCA: 803
+Tree 9, Height 9, Query (2561, 1838)
+LCA: 1
+Tree 9, Height 9, Query (340, 1496)
+LCA: 1
+Tree 9, Height 9, Query (989, 368)
+LCA: 1
+Tree 9, Height 9, Query (463, 1279)
+LCA: 1
+Tree 9, Height 9, Query (1173, 1012)
+LCA: 803
+Tree 9, Height 9, Query (1594, 408)
+LCA: 1
+Tree 9, Height 9, Query (1192, 1602)
+LCA: 1131
+Tree 9, Height 9, Query (1198, 1900)
+LCA: 803
+Tree 9, Height 9, Query (2280, 398)
+LCA: 1
+Tree 9, Height 9, Query (636, 1079)
+LCA: 1
+Tree 9, Height 9, Query (1386, 1574)
+LCA: 1131
+Tree 9, Height 9, Query (508, 605)
+LCA: 2
+Tree 9, Height 9, Query (659, 34)
+LCA: 2
+Tree 9, Height 9, Query (808, 2428)
+LCA: 1
+Tree 9, Height 9, Query (1822, 1278)
+LCA: 803
+Tree 9, Height 9, Query (1262, 83)
+LCA: 1
+Tree 9, Height 9, Query (901, 628)
+LCA: 1
+Tree 9, Height 9, Query (1151, 220)
+LCA: 1
+Tree 9, Height 9, Query (1722, 111)
+LCA: 1
+Tree 9, Height 9, Query (525, 2605)
+LCA: 1
+Tree 9, Height 9, Query (2414, 2271)
+LCA: 1
+Tree 9, Height 9, Query (277, 1565)
+LCA: 1
+Tree 9, Height 9, Query (2425, 2320)
+LCA: 1
+Tree 9, Height 9, Query (1380, 677)
+LCA: 1
+Tree 9, Height 9, Query (495, 2447)
+LCA: 1
+Tree 9, Height 9, Query (243, 1280)
+LCA: 1
+Tree 9, Height 9, Query (575, 1070)
+LCA: 1
+Tree 9, Height 9, Query (1232, 421)
+LCA: 1
+Tree 9, Height 9, Query (2648, 1553)
+LCA: 1
+Tree 9, Height 9, Query (1331, 664)
+LCA: 1
+Tree 9, Height 9, Query (1224, 1135)
+LCA: 1132
+Tree 9, Height 9, Query (450, 1693)
+LCA: 1
+Tree 9, Height 9, Query (2215, 859)
+LCA: 803
+Tree 9, Height 9, Query (1200, 831)
+LCA: 803
+Tree 9, Height 9, Query (505, 131)
+LCA: 3
+Tree 9, Height 9, Query (1469, 2306)
+LCA: 803
+Tree 9, Height 9, Query (1506, 757)
+LCA: 1
+Tree 9, Height 9, Query (228, 1102)
+LCA: 1
+Tree 9, Height 9, Query (2423, 1478)
+LCA: 1
+Tree 9, Height 9, Query (1492, 457)
+LCA: 1
+Tree 9, Height 9, Query (39, 1581)
+LCA: 1
+Tree 9, Height 9, Query (938, 2417)
+LCA: 1
+Tree 9, Height 9, Query (832, 2255)
+LCA: 803
+Tree 9, Height 9, Query (746, 2575)
+LCA: 1
+Tree 10, Height 10, Query (1372, 1919)
+LCA: 2
+Tree 10, Height 10, Query (2274, 2662)
+LCA: 1859
+Tree 10, Height 10, Query (155, 1641)
+LCA: 2
+Tree 10, Height 10, Query (1107, 1400)
+LCA: 468
+Tree 10, Height 10, Query (1016, 1459)
+LCA: 468
+Tree 10, Height 10, Query (1242, 2247)
+LCA: 2
+Tree 10, Height 10, Query (1602, 720)
+LCA: 468
+Tree 10, Height 10, Query (531, 1205)
+LCA: 468
+Tree 10, Height 10, Query (1402, 1148)
+LCA: 1133
+Tree 10, Height 10, Query (1317, 1866)
+LCA: 2
+Tree 10, Height 10, Query (822, 232)
+LCA: 2
+Tree 10, Height 10, Query (365, 1699)
+LCA: 2
+Tree 10, Height 10, Query (577, 867)
+LCA: 468
+Tree 10, Height 10, Query (1751, 481)
+LCA: 468
+Tree 10, Height 10, Query (2430, 158)
+LCA: 2
+Tree 10, Height 10, Query (1926, 829)
+LCA: 2
+Tree 10, Height 10, Query (1655, 942)
+LCA: 468
+Tree 10, Height 10, Query (1759, 2068)
+LCA: 2
+Tree 10, Height 10, Query (1425, 715)
+LCA: 468
+Tree 10, Height 10, Query (347, 497)
+LCA: 2
+Tree 10, Height 10, Query (1965, 2594)
+LCA: 1859
+Tree 10, Height 10, Query (1223, 806)
+LCA: 468
+Tree 10, Height 10, Query (129, 202)
+LCA: 2
+Tree 10, Height 10, Query (1198, 2347)
+LCA: 2
+Tree 10, Height 10, Query (1546, 2474)
+LCA: 2
+Tree 10, Height 10, Query (69, 515)
+LCA: 2
+Tree 10, Height 10, Query (2380, 425)
+LCA: 2
+Tree 10, Height 10, Query (2460, 1844)
+LCA: 2
+Tree 10, Height 10, Query (2220, 135)
+LCA: 2
+Tree 10, Height 10, Query (1526, 1982)
+LCA: 2
+Tree 10, Height 10, Query (2514, 1749)
+LCA: 2
+Tree 10, Height 10, Query (838, 372)
+LCA: 2
+Tree 10, Height 10, Query (38, 243)
+LCA: 2
+Tree 10, Height 10, Query (841, 2564)
+LCA: 2
+Tree 10, Height 10, Query (45, 947)
+LCA: 2
+Tree 10, Height 10, Query (247, 2005)
+LCA: 2
+Tree 10, Height 10, Query (1045, 200)
+LCA: 2
+Tree 10, Height 10, Query (2613, 965)
+LCA: 2
+Tree 10, Height 10, Query (73, 530)
+LCA: 2
+Tree 10, Height 10, Query (1052, 1004)
+LCA: 975
+Tree 10, Height 10, Query (1940, 1939)
+LCA: 1937
+Tree 10, Height 10, Query (1663, 866)
+LCA: 468
+Tree 10, Height 10, Query (1243, 761)
+LCA: 468
+Tree 10, Height 10, Query (2182, 1829)
+LCA: 2
+Tree 10, Height 10, Query (51, 1729)
+LCA: 2
+Tree 10, Height 10, Query (2704, 1897)
+LCA: 1859
+Tree 10, Height 10, Query (2594, 490)
+LCA: 2
+Tree 10, Height 10, Query (1734, 2110)
+LCA: 2
+Tree 10, Height 10, Query (1553, 2354)
+LCA: 2
+Tree 10, Height 10, Query (642, 349)
+LCA: 2
+Tree 10, Height 10, Query (10, 1972)
+LCA: 2
+Tree 10, Height 10, Query (1267, 546)
+LCA: 468
+Tree 10, Height 10, Query (786, 2226)
+LCA: 2
+Tree 10, Height 10, Query (326, 256)
+LCA: 236
+Tree 10, Height 10, Query (1888, 2290)
+LCA: 1860
+Tree 10, Height 10, Query (797, 705)
+LCA: 619
+Tree 10, Height 10, Query (1632, 1397)
+LCA: 1322
+Tree 10, Height 10, Query (1455, 2459)
+LCA: 2
+Tree 10, Height 10, Query (34, 1556)
+LCA: 2
+Tree 10, Height 10, Query (677, 636)
+LCA: 621
+Tree 10, Height 10, Query (642, 1380)
+LCA: 468
+Tree 10, Height 10, Query (2239, 1312)
+LCA: 2
+Tree 10, Height 10, Query (1938, 672)
+LCA: 2
+Tree 10, Height 10, Query (2389, 145)
+LCA: 2
+Tree 10, Height 10, Query (1090, 878)
+LCA: 805
+Tree 10, Height 10, Query (1333, 2017)
+LCA: 2
+Tree 10, Height 10, Query (1347, 913)
+LCA: 468
+Tree 10, Height 10, Query (2161, 550)
+LCA: 2
+Tree 10, Height 10, Query (1430, 2257)
+LCA: 2
+Tree 10, Height 10, Query (2206, 586)
+LCA: 2
+Tree 10, Height 10, Query (16, 2582)
+LCA: 2
+Tree 10, Height 10, Query (2166, 1772)
+LCA: 2
+Tree 10, Height 10, Query (2443, 6)
+LCA: 2
+Tree 10, Height 10, Query (1337, 2195)
+LCA: 2
+Tree 10, Height 10, Query (2648, 2059)
+LCA: 1859
+Tree 10, Height 10, Query (2376, 250)
+LCA: 2
+Tree 10, Height 10, Query (1088, 2285)
+LCA: 2
+Tree 10, Height 10, Query (39, 1681)
+LCA: 2
+Tree 10, Height 10, Query (1465, 342)
+LCA: 2
+Tree 10, Height 10, Query (1887, 2492)
+LCA: 1859
+Tree 10, Height 10, Query (1880, 1306)
+LCA: 2
+Tree 10, Height 10, Query (2203, 713)
+LCA: 2
+Tree 10, Height 10, Query (2612, 2117)
+LCA: 1859
+Tree 10, Height 10, Query (2098, 425)
+LCA: 2
+Tree 10, Height 10, Query (2215, 1929)
+LCA: 1860
+Tree 10, Height 10, Query (1838, 787)
+LCA: 468
+Tree 10, Height 10, Query (420, 598)
+LCA: 2
+Tree 10, Height 10, Query (2296, 2392)
+LCA: 1859
+Tree 10, Height 10, Query (587, 1135)
+LCA: 468
+Tree 10, Height 10, Query (449, 2603)
+LCA: 2
+Tree 10, Height 10, Query (1907, 1673)
+LCA: 2
+Tree 10, Height 10, Query (782, 1898)
+LCA: 2
+Tree 10, Height 10, Query (2364, 1318)
+LCA: 2
+Tree 10, Height 10, Query (2036, 444)
+LCA: 2
+Tree 10, Height 10, Query (1336, 866)
+LCA: 468
+Tree 10, Height 10, Query (1201, 810)
+LCA: 468
+Tree 10, Height 10, Query (1516, 107)
+LCA: 2
+Tree 10, Height 10, Query (2025, 1481)
+LCA: 2
+Tree 10, Height 10, Query (1661, 404)
+LCA: 2
+Tree 10, Height 10, Query (77, 1927)
+LCA: 2
