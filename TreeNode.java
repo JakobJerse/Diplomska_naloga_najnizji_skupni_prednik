@@ -31,5 +31,4 @@ public class TreeNode implements Serializable {
     public int getDepth() {
         return this.depth;
     }
-
 }

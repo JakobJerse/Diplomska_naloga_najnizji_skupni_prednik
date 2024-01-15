@@ -1,0 +1,2978 @@
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 4 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 4 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 4 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 5 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 3 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 4 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 5 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 5
+5, 5, 5, 5, 5
+
+Node1: 2 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 5 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 5
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 3
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 4
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 1 Node2: 2
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 1 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 3
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 3 Node2: 1
+1, 1, 1, 1, 1
+
+Node1: 4 Node2: 4
+4, 4, 4, 4, 4
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 3 Node2: 3
+3, 3, 3, 3, 3
+
+Node1: 3 Node2: 2
+2, 2, 2, 2, 2
+
+Node1: 2 Node2: 4
+2, 2, 2, 2, 2

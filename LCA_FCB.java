@@ -10,9 +10,8 @@ import java.util.*;
 public class LCA_FCB {
 
     private long preprocessTime;
-    private long queryTime;
 
-    TreeNode root;
+    private TreeNode root;
     private int numNodes;
     private int p;
     private int blockSize;
@@ -49,7 +48,7 @@ public class LCA_FCB {
         dfs(this.root);
         getMinOfEachBlock(blockSize);
         buildSparseTable();
-        precomputeBlockBitMasks2();
+        precomputeBlockBitMasks();
         precomputeBlocks();
 
         long preprocessEndTime = System.nanoTime();
@@ -129,27 +128,6 @@ public class LCA_FCB {
     private void precomputeBlockBitMasks() {
         for (int i = 0; i < numBlocks; i++) {
             int mask = 0;
-            int firstElementDepth = depthArray.get(blockStartingIndex[i]);
-
-            for (int j = 1; j < blockSize && blockStartingIndex[i] + j < eulerTourSize; j++) {
-                int currentIndex = blockStartingIndex[i] + j;
-                int currentDepth = depthArray.get(currentIndex);
-
-                int depthDiff = currentDepth - firstElementDepth;
-
-                if (depthDiff > 0) {
-                    mask |= (1 << (j - 1));
-                }
-            }
-
-            blockBitmasks[i] = mask;
-        }
-    }
-
-    // precompute the bitmasks for each block
-    private void precomputeBlockBitMasks2() {
-        for (int i = 0; i < numBlocks; i++) {
-            int mask = 0;
             for (int j = 1; j < blockSize && blockStartingIndex[i] + j < eulerTourSize; j++) {
                 int prevIndex = blockStartingIndex[i] + j - 1;
                 int currentIndex = blockStartingIndex[i] + j;
@@ -196,8 +174,6 @@ public class LCA_FCB {
 
     // LCA query
     public TreeNode getLCA(int node1_value, int node2_value) {
-
-        long queryStartTime = System.nanoTime();
 
         if (node1_value < 1 || node1_value > numNodes) {
             throw new IllegalArgumentException("Node1 not found");
@@ -274,9 +250,6 @@ public class LCA_FCB {
                 finalLcaIndex = tempLcaIndex;
             }
 
-            long queryEndTime = System.nanoTime();
-            queryTime = queryEndTime - queryStartTime;
-
             return eulerTourArray.get(finalLcaIndex);
 
         }
@@ -284,10 +257,6 @@ public class LCA_FCB {
 
     public long getPreprocessTime() {
         return preprocessTime;
-    }
-
-    public long getQueryTime() {
-        return queryTime;
     }
 
 }

@@ -9,8 +9,10 @@ public class TreeGenerator {
 
     // Tree generator
     private int currentLabel = 1;
+    Random random = new Random();
 
     public TreeNode generateRandomTree(int maxDepth, int maxChildren) {
+        this.currentLabel = 1;
         return generateRandomTree(0, maxDepth, maxChildren);
     }
 
@@ -21,12 +23,7 @@ public class TreeGenerator {
 
         TreeNode node = new TreeNode(currentLabel++, currentDepth);
 
-        Random random = new Random();
-        int numChildren = random.nextInt(maxChildren + 1);
-
-        if (currentDepth == 0 && numChildren == 0) {
-            numChildren = 1;
-        }
+        int numChildren = (currentDepth == maxDepth) ? 0 : random.nextInt(maxChildren) + 1;
 
         for (int i = 0; i < numChildren; i++) {
             TreeNode child = generateRandomTree(currentDepth + 1, maxDepth, maxChildren);
@@ -39,6 +36,7 @@ public class TreeGenerator {
     }
 
     public TreeNode generateCompleteTree(int maxDepth, int numChildren) {
+        this.currentLabel = 1;
         return generateCompleteTree(0, maxDepth, numChildren);
     }
 
@@ -60,6 +58,7 @@ public class TreeGenerator {
     }
 
     public TreeNode generateSkewedTree(int maxDepth) {
+        this.currentLabel = 1;
         return generateSkewedTree(0, maxDepth);
     }
 
@@ -75,57 +74,6 @@ public class TreeGenerator {
         }
 
         return node;
-    }
-
-    // Print the tree
-    public void printTree(TreeNode node) {
-
-        int counter = 0;
-        boolean newLine = false;
-
-        if (node == null) {
-            return;
-        }
-
-        int currentDepth = node.getDepth();
-
-        Queue<Integer> numChildrenQueue = new ArrayDeque<>();
-        numChildrenQueue.add(node.children.size());
-        counter = numChildrenQueue.remove() + 1;
-
-        Queue<TreeNode> nodeQueue = new ArrayDeque<>();
-        nodeQueue.add(node);
-
-        while (!nodeQueue.isEmpty()) {
-            TreeNode current = nodeQueue.remove();
-            if (current.getDepth() > currentDepth) {
-                System.out.println();
-                currentDepth = current.getDepth();
-                newLine = true;
-            }
-
-            if (counter == 0 && current.getDepth() != 0) {
-                if (newLine == false) {
-                    System.out.print("| ");
-                } else {
-                    newLine = false;
-                }
-                counter = numChildrenQueue.remove();
-                if (counter == 0) {
-                    System.out.print(" NULL | ");
-                    counter = numChildrenQueue.remove();
-                }
-            }
-
-            System.out.print(current.getValue() + " ");
-            counter--;
-
-            for (TreeNode child : current.children) {
-                nodeQueue.add(child);
-                numChildrenQueue.add(child.children.size());
-            }
-        }
-        System.out.println();
     }
 
     public void saveTreeToFile(TreeNode root, String filename) {
@@ -152,31 +100,57 @@ public class TreeGenerator {
         return root;
     }
 
-    public void generateCompleteTreeTestSet(int numTrees, int numChildren) {
-        for (int i = 1; i <= numTrees; i++) {
+    public void generateCompleteTreeTestSet(int maxDepth, int step, int numChildren) {
+        for (int i = step; i <= maxDepth; i += step) {
+            UtilMethods.deleteExistingFiles(new String[] { "test_trees/complete_trees/complete_tree_" + i + ".ser" });
             currentLabel = 1;
             TreeNode root = generateCompleteTree(i, numChildren);
-            String filename = "test_trees/complete_trees/complete_tree_with_height_" + i + ".ser";
+            String filename = "test_trees/complete_trees/complete_tree_" + i + ".ser";
             saveTreeToFile(root, filename);
         }
     }
 
-    public void generateRandomTreeTestSet(int numTrees, int maxNumChildren) {
-        for (int i = 1; i <= numTrees; i++) {
+    public void generateRandomTreeTestSet(int maxDepth, int step, int maxChildren) {
+        for (int i = 19; i <= 19; i += step) {
+            UtilMethods.deleteExistingFiles(new String[] { "test_trees/random_trees/random_tree_" + i + ".ser" });
             currentLabel = 1;
-            TreeNode root = generateRandomTree(i, maxNumChildren);
-            String filename = "test_trees/random_trees/random_tree_with_height_" + i + ".ser";
+            TreeNode root = null;
+            if (i <= 10) {
+                root = generateRandomTree(i, maxChildren + 1);
+            } else {
+                root = generateRandomTree(i, maxChildren);
+            }
+            System.out.println("Number of nodes: " + UtilMethods.getNumberOfNoodes(root));
+            String filename = "test_trees/random_trees/random_tree_" + i + ".ser";
             saveTreeToFile(root, filename);
         }
 
     }
 
-    public void generateSkewedTreeTestSet(int numTrees) {
-        for (int i = 1; i <= numTrees; i++) {
+    public void generateSkewedTreeTestSet(int maxDepth, int step) {
+        for (int i = step; i <= maxDepth; i += step) {
+            UtilMethods.deleteExistingFiles(new String[] { "test_trees/skewed_trees/skewed_tree_" + i + ".ser" });
             currentLabel = 1;
             TreeNode root = generateSkewedTree(i);
-            String filename = "test_trees/skewed_trees/skewed_tree_with_height_" + i + ".ser";
+            String filename = "test_trees/skewed_trees/skewed_tree_" + i + ".ser";
             saveTreeToFile(root, filename);
+        }
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Would you like to generate new test sets? (y/n)");
+        Scanner scanner = new Scanner(System.in);
+        String choice = scanner.nextLine();
+        if (choice.equals("y")) {
+            System.out.println("Generating new test sets...");
+            TreeGenerator treeGenerator = new TreeGenerator();
+            treeGenerator.generateCompleteTreeTestSet(19, 1, 2);
+            treeGenerator.generateSkewedTreeTestSet(1000000, 100000);
+            treeGenerator.generateRandomTreeTestSet(19, 1, 3);
+
+        } else {
+            System.out.println("Test sets were not genereated.");
+            System.out.println();
         }
     }
 }

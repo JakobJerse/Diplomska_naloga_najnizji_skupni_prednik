@@ -10,9 +10,8 @@ import java.util.*;
 public class LCA_RMQ {
 
     private long preprocessTime;
-    private long queryTime;
 
-    TreeNode root;
+    private TreeNode root;
     private int numNodes;
     private int p;
     private ArrayList<TreeNode> eulerTourArray;
@@ -22,7 +21,6 @@ public class LCA_RMQ {
     private int[] pow2Array;
     private int size;
     private int[][] sparseTable;
-    private int[][] indexTable;
 
     public LCA_RMQ(TreeNode root) {
         long preprocessStartTime = System.nanoTime();
@@ -37,7 +35,6 @@ public class LCA_RMQ {
         this.log2Array = new int[size + 1];
         this.pow2Array = new int[size + 1];
         this.sparseTable = new int[p + 1][size];
-        this.indexTable = new int[p + 1][size];
 
         buildHelperArrays();
         dfs(this.root);
@@ -84,21 +81,14 @@ public class LCA_RMQ {
     private void buildSparseTable() {
 
         for (int i = 0; i < depthArray.size(); i++) {
-            sparseTable[0][i] = depthArray.get(i);
-            indexTable[0][i] = i;
+            sparseTable[0][i] = i;
         }
 
         for (int i = 1; i <= p; i++) {
             for (int j = 0; j + pow2Array[i] <= eulerTourArray.size(); j++) {
-                int left = sparseTable[i - 1][j];
-                int right = sparseTable[i - 1][j + pow2Array[i - 1]];
-                if (left <= right) {
-                    sparseTable[i][j] = left;
-                    indexTable[i][j] = indexTable[i - 1][j];
-                } else {
-                    sparseTable[i][j] = right;
-                    indexTable[i][j] = indexTable[i - 1][j + pow2Array[i - 1]];
-                }
+                int leftIndex = sparseTable[i - 1][j];
+                int rightIndex = sparseTable[i - 1][j + pow2Array[i - 1]];
+                sparseTable[i][j] = depthArray.get(leftIndex) <= depthArray.get(rightIndex) ? leftIndex : rightIndex;
             }
         }
     }
@@ -108,21 +98,17 @@ public class LCA_RMQ {
 
         int length = right - left + 1;
         int k = log2Array[length];
-        int leftIntervalValue = sparseTable[k][left];
-        int rightIntervalValue = sparseTable[k][right - pow2Array[k] + 1];
+        int leftIntervalMinValueIndex = sparseTable[k][left];
+        int rightIntervalMinValueIndex = sparseTable[k][right - pow2Array[k] + 1];
 
-        if (leftIntervalValue <= rightIntervalValue) {
-            return indexTable[k][left];
-        } else {
-            return indexTable[k][right - pow2Array[k] + 1];
-        }
+        return depthArray.get(leftIntervalMinValueIndex) <= depthArray.get(rightIntervalMinValueIndex)
+                ? leftIntervalMinValueIndex
+                : rightIntervalMinValueIndex;
 
     }
 
     // LCA query
     public TreeNode getLCA(int node1_value, int node2_value) {
-        long queryStartTime = System.nanoTime();
-
         // handle invalid inputs
         if (node1_value < 1 || node1_value > numNodes) {
             throw new IllegalArgumentException("Node1 not found");
@@ -136,18 +122,11 @@ public class LCA_RMQ {
         int right = Math.max(firstAppearanceIndex[node1_value], firstAppearanceIndex[node2_value]);
         int lcaIndex = query(left, right);
 
-        long queryEndTime = System.nanoTime();
-        queryTime = queryEndTime - queryStartTime;
-
         return eulerTourArray.get(lcaIndex);
 
     }
 
     public long getPreprocessTime() {
         return preprocessTime;
-    }
-
-    public long getQueryTime() {
-        return queryTime;
     }
 }

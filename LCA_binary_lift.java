@@ -10,9 +10,8 @@ import java.util.*;
 public class LCA_binary_lift {
 
     private long preprocessTime;
-    private long queryTime;
 
-    TreeNode root;
+    private TreeNode root;
     private TreeNode[][] ancestors;
     private int numNodes;
     private int numAncesstors;
@@ -23,10 +22,10 @@ public class LCA_binary_lift {
 
         this.root = root;
         this.numNodes = UtilMethods.getNumberOfNoodes(root);
-        this.numAncesstors = (int) Math.floor(Math.log(UtilMethods.height(root)) / Math.log(2));
+        this.numAncesstors = (int) Math.floor(Math.log(numNodes) / Math.log(2));
         this.ancestors = new TreeNode[numNodes + 1][numAncesstors + 1];
         this.nodeMap = new HashMap<>();
-        preprocess(root);
+        getAncestorArray(root);
 
         long preprocessEndTime = System.nanoTime();
         preprocessTime = preprocessEndTime - preprocessStartTime;
@@ -34,8 +33,6 @@ public class LCA_binary_lift {
 
     // LCA query
     public TreeNode getLCA(int node1_value, int node2_value) {
-
-        long queryStartTime = System.nanoTime();
 
         if (!nodeMap.containsKey(node1_value)) {
             throw new IllegalArgumentException("Node1 not found");
@@ -74,14 +71,11 @@ public class LCA_binary_lift {
             }
         }
 
-        long queryEndTime = System.nanoTime();
-        queryTime = queryEndTime - queryStartTime;
-
         return ancestors[node1.getValue()][0];
     }
 
     // precompute the ancestors array using dynamic programming
-    private void preprocess(TreeNode root) {
+    private void getAncestorArray(TreeNode root) {
         if (root == null) {
             return;
         }
@@ -100,15 +94,11 @@ public class LCA_binary_lift {
         }
 
         for (TreeNode child : root.children) {
-            preprocess(child);
+            getAncestorArray(child);
         }
     }
 
     public long getPreprocessTime() {
         return preprocessTime;
-    }
-
-    public long getQueryTime() {
-        return queryTime;
     }
 }

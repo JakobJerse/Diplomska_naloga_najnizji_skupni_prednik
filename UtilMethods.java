@@ -1,3 +1,7 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class UtilMethods {
 
     public static int getNumberOfNoodes(TreeNode root) {
@@ -36,4 +40,24 @@ public class UtilMethods {
 
         return new TreeNode[] { node1, node2 };
     }
+
+    public static void deleteExistingFiles(String[] fileNames) {
+        for (String fileName : fileNames) {
+            File file = new File(fileName);
+            if (file.exists()) {
+                if (file.delete()) {
+                    System.out.println("Deleted existing file: " + fileName);
+                } else {
+                    System.out.println("Failed to delete file: " + fileName);
+                }
+            }
+        }
+    }
+
+    public static void storeAverageTime(String fileName, float averageTime, int numberOfNodes) throws IOException {
+        FileWriter fileWriter = new FileWriter(fileName, true);
+        fileWriter.write(averageTime + ", " + numberOfNodes + "\n");
+        fileWriter.close();
+    }
+
 }
