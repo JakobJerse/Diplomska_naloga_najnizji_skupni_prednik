@@ -11,22 +11,22 @@ public class TreeGenerator {
     private int currentLabel = 1;
     Random random = new Random();
 
-    public TreeNode generateRandomTree(int maxDepth, int maxChildren) {
+    public TreeNode generateRandomTree(int depth, int maxChildren) {
         this.currentLabel = 1;
-        return generateRandomTree(0, maxDepth, maxChildren);
+        return generateRandomTree(0, depth, maxChildren);
     }
 
-    private TreeNode generateRandomTree(int currentDepth, int maxDepth, int maxChildren) {
-        if (currentDepth > maxDepth) {
+    private TreeNode generateRandomTree(int currentDepth, int depth, int maxChildren) {
+        if (currentDepth > depth) {
             return null;
         }
 
         TreeNode node = new TreeNode(currentLabel++, currentDepth);
 
-        int numChildren = (currentDepth == maxDepth) ? 0 : random.nextInt(maxChildren) + 1;
+        int numChildren = (currentDepth == depth) ? 0 : random.nextInt(maxChildren) + 1;
 
         for (int i = 0; i < numChildren; i++) {
-            TreeNode child = generateRandomTree(currentDepth + 1, maxDepth, maxChildren);
+            TreeNode child = generateRandomTree(currentDepth + 1, depth, maxChildren);
             if (child != null) {
                 node.addChild(child);
             }
@@ -35,20 +35,20 @@ public class TreeGenerator {
         return node;
     }
 
-    public TreeNode generateCompleteTree(int maxDepth, int numChildren) {
+    public TreeNode generateCompleteTree(int depth, int numChildren) {
         this.currentLabel = 1;
-        return generateCompleteTree(0, maxDepth, numChildren);
+        return generateCompleteTree(0, depth, numChildren);
     }
 
-    private TreeNode generateCompleteTree(int currentDepth, int maxDepth, int numChildren) {
-        if (currentDepth > maxDepth) {
+    private TreeNode generateCompleteTree(int currentDepth, int depth, int numChildren) {
+        if (currentDepth > depth) {
             return null;
         }
 
         TreeNode node = new TreeNode(currentLabel++, currentDepth);
 
         for (int i = 0; i < numChildren; i++) {
-            TreeNode child = generateCompleteTree(currentDepth + 1, maxDepth, numChildren);
+            TreeNode child = generateCompleteTree(currentDepth + 1, depth, numChildren);
             if (child != null) {
                 node.addChild(child);
             }
@@ -57,20 +57,20 @@ public class TreeGenerator {
         return node;
     }
 
-    public TreeNode generateSkewedTree(int maxDepth) {
+    public TreeNode generateSkewedTree(int depth) {
         this.currentLabel = 1;
-        return generateSkewedTree(0, maxDepth);
+        return generateSkewedTree(0, depth);
     }
 
-    private TreeNode generateSkewedTree(int currentDepth, int maxDepth) {
-        if (currentDepth > maxDepth) {
+    private TreeNode generateSkewedTree(int currentDepth, int depth) {
+        if (currentDepth > depth) {
             return null;
         }
 
         TreeNode node = new TreeNode(currentLabel++, currentDepth);
 
-        if (currentDepth < maxDepth) {
-            node.addChild(generateSkewedTree(currentDepth + 1, maxDepth));
+        if (currentDepth < depth) {
+            node.addChild(generateSkewedTree(currentDepth + 1, depth));
         }
 
         return node;

@@ -1,7 +1,7 @@
 
 /*
  *  Implementation of LCA  Farach-Colton and Bender algorithm
- *  Preprocesing complexity : O(n)
+ *  Preprocesing complexity : O(N)
  *  Query complexity : O(1)
  */
 
@@ -44,15 +44,15 @@ public class LCA_FCB {
         this.firstAppearanceIndex = new int[numNodes + 1];
         this.blockBitmasks = new int[numBlocks];
 
-        buildHelperArrays();
-        dfs(this.root);
-        getMinOfEachBlock(blockSize);
-        buildSparseTable();
-        precomputeBlockBitMasks();
-        precomputeBlocks();
+        this.buildHelperArrays();
+        this.dfs(this.root);
+        this.getMinOfEachBlock(blockSize);
+        this.buildSparseTable();
+        this.precomputeBlockBitMasks();
+        this.precomputeBlocks();
 
         long preprocessEndTime = System.nanoTime();
-        preprocessTime = preprocessEndTime - preprocessStartTime;
+        this.preprocessTime = preprocessEndTime - preprocessStartTime;
     }
 
     // construct the log2 and pow2 arrays

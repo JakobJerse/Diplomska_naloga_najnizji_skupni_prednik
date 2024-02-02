@@ -1,8 +1,8 @@
 
 /*
  *  Implementation of LCA algorithm using square root decomposition technique
- *  Preprocesing complexity : O(n)
- *  Query complexity : O(sqrt(h))
+ *  Preprocesing complexity : O(N)
+ *  Query complexity : O(sqrt(N))
  */
 
 import java.util.*;
@@ -25,10 +25,11 @@ public class LCA_sqrt {
         this.blockSize = (int) Math.sqrt(UtilMethods.height(root));
         this.jumpParents = new TreeNode[numNodes + 1];
         this.nodeMap = new HashMap<>();
-        getJumpParents(root);
+
+        this.getJumpParents(root);
 
         long preprocessEndTime = System.nanoTime();
-        preprocessTime = preprocessEndTime - preprocessStartTime;
+        this.preprocessTime = preprocessEndTime - preprocessStartTime;
     }
 
     // LCA query

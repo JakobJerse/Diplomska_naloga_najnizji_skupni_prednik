@@ -4,12 +4,17 @@ import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.NumberAxis;
 import org.jfree.chart.plot.XYPlot;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
+import org.jfree.chart.ui.HorizontalAlignment;
+import org.jfree.chart.ui.RectangleEdge;
+import org.jfree.chart.ui.RectangleInsets;
+import org.jfree.chart.ui.VerticalAlignment;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 
 import javax.swing.*;
 import java.awt.*;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Map;
@@ -18,6 +23,9 @@ import java.util.Scanner;
 public class LCAChart extends JFrame {
 
         private int treeType;
+
+        private Font legendFont = new Font("Arial", Font.PLAIN, 16);
+        private Font axisFont = new Font("Arial", Font.PLAIN, 16);
 
         Map<String, String> dictionary = Map.of(
                         "naive", "Naivna metoda",
@@ -83,22 +91,22 @@ public class LCAChart extends JFrame {
                                                 Color.RED);
                                 queryChart2 = createChart("Čas odgovora na poizvedbe - Korenska dekompozicija",
                                                 queryDatasetSqrt,
-                                                3000, Color.BLUE);
+                                                1500, Color.BLUE);
                                 queryChart3 = createChart("Čas odgovora na poizvedbe - Binarni dvig",
                                                 queryDatasetBinaryLift,
-                                                3000, Color.GREEN);
+                                                1500, Color.GREEN);
                                 queryChart4 = createChart(
                                                 "Čas odgovora na poizvedbe - Prevedba na iskanje najmanjše vrednosti na intervalu",
                                                 queryDatasetRMQ,
-                                                3000, Color.ORANGE);
+                                                1500, Color.ORANGE);
                                 queryChart5 = createChart(
                                                 "Čas odgovora na poizvedbe - Farach-Colton-Benderjev algoritem",
-                                                queryDatasetFCB, 3000, Color.MAGENTA);
-                                queryChart6 = createMultipleLineChart("Čas Predprocesiranja - vsi algoritmi",
+                                                queryDatasetFCB, 1500, Color.MAGENTA);
+                                queryChart6 = createMultipleLineChart("Čas odgovora na poizvedbe - vsi algoritmi",
                                                 queryDatasetAllMethods,
                                                 new Color[] { Color.RED, Color.BLUE, Color.GREEN, Color.ORANGE,
                                                                 Color.MAGENTA },
-                                                3000);
+                                                1500);
 
                                 break;
                         case 2:
@@ -108,22 +116,22 @@ public class LCAChart extends JFrame {
                                                 Color.RED);
                                 queryChart2 = createChart("Čas odgovora na poizvedbe - Korenska dekompozicija",
                                                 queryDatasetSqrt,
-                                                3000, Color.BLUE);
+                                                1500, Color.BLUE);
                                 queryChart3 = createChart("Čas odgovora na poizvedbe - Binarni dvig",
                                                 queryDatasetBinaryLift,
-                                                3000, Color.GREEN);
+                                                1500, Color.GREEN);
                                 queryChart4 = createChart(
                                                 "Čas odgovora na poizvedbe - Prevedba na iskanje najmanjše vrednosti na intervalu",
                                                 queryDatasetRMQ,
-                                                3000, Color.ORANGE);
+                                                1500, Color.ORANGE);
                                 queryChart5 = createChart(
                                                 "Čas odgovora na poizvedbe - Farach-Colton-Benderjev algoritem",
-                                                queryDatasetFCB, 3000, Color.MAGENTA);
+                                                queryDatasetFCB, 1500, Color.MAGENTA);
                                 queryChart6 = createMultipleLineChart("Čas Predprocesiranja - vsi algoritmi",
                                                 queryDatasetAllMethods,
                                                 new Color[] { Color.RED, Color.BLUE, Color.GREEN, Color.ORANGE,
                                                                 Color.MAGENTA },
-                                                3000);
+                                                1500);
                                 break;
                         case 3:
                                 queryChart1 = createChart("Čas odgovora na poizvedbe - Naivna metoda",
@@ -172,7 +180,6 @@ public class LCAChart extends JFrame {
         private XYSeriesCollection createDatasetForAllMethods(String prefix) {
                 XYSeriesCollection dataset = new XYSeriesCollection();
 
-                // Create series for each method
                 for (String method : new String[] { "naive", "sqrt", "binary_lift", "rmq", "fcb" }) {
 
                         XYSeries series = new XYSeries(dictionary.get(method));
@@ -221,6 +228,10 @@ public class LCAChart extends JFrame {
                                 "Čas (ns)",
                                 dataset);
 
+                chart.getTitle().setPadding(10, 0, 0, 0);
+                chart.getTitle().setVerticalAlignment(VerticalAlignment.CENTER);
+                chart.getTitle().setHorizontalAlignment((HorizontalAlignment.CENTER));
+
                 XYPlot plot = chart.getXYPlot();
                 plot.setBackgroundPaint(Color.WHITE);
                 plot.setDomainGridlinesVisible(true);
@@ -242,6 +253,24 @@ public class LCAChart extends JFrame {
                         renderer.setSeriesPaint(i, lineColors[i]);
                 }
 
+                chart.getLegend().setItemFont(this.legendFont);
+
+                // Adjust legend position
+                chart.getLegend().setPosition(RectangleEdge.BOTTOM);
+                chart.getLegend().setHorizontalAlignment(HorizontalAlignment.CENTER);
+                chart.getLegend().setMargin(new RectangleInsets(0, 0, 10, 80));
+
+                // X-axis title
+                chart.getXYPlot().getDomainAxis().setLabelFont(this.axisFont);
+                // X-axis numbers
+                chart.getXYPlot().getDomainAxis().setTickLabelFont(this.axisFont);
+
+                // Y-axis title
+                chart.getXYPlot().getRangeAxis().setLabelFont(this.axisFont);
+
+                // Y-axis numbers
+                chart.getXYPlot().getRangeAxis().setTickLabelFont(this.axisFont);
+
                 return chart;
         }
 
@@ -252,6 +281,10 @@ public class LCAChart extends JFrame {
                                 "Število vozlišč",
                                 "Čas (ns)",
                                 dataset);
+
+                chart.getTitle().setPadding(5, 0, 0, 0);
+                chart.getTitle().setVerticalAlignment(VerticalAlignment.CENTER);
+                chart.getTitle().setHorizontalAlignment((HorizontalAlignment.CENTER));
 
                 XYPlot plot = chart.getXYPlot();
                 plot.setBackgroundPaint(Color.WHITE);
@@ -270,6 +303,26 @@ public class LCAChart extends JFrame {
                 XYLineAndShapeRenderer renderer = (XYLineAndShapeRenderer) plot.getRenderer();
                 renderer.setSeriesPaint(0, curveColor);
 
+                // Customize legend font
+                chart.getLegend().setItemFont(this.legendFont);
+
+                // Adjust legend position and padding
+                chart.getLegend().setPosition(RectangleEdge.BOTTOM);
+                chart.getLegend().setHorizontalAlignment(HorizontalAlignment.CENTER);
+                chart.getLegend().setMargin(new RectangleInsets(0, 0, 20, 0));
+
+                // X-axis title
+                chart.getXYPlot().getDomainAxis().setLabelFont(this.axisFont);
+
+                // X-axis numbers
+                chart.getXYPlot().getDomainAxis().setTickLabelFont(this.axisFont);
+
+                // Y-axis title
+                chart.getXYPlot().getRangeAxis().setLabelFont(this.axisFont);
+                
+                // Y-axis numbers
+                chart.getXYPlot().getRangeAxis().setTickLabelFont(this.axisFont);
+
                 return chart;
         }
 
@@ -277,7 +330,7 @@ public class LCAChart extends JFrame {
                 JFrame frame = new JFrame(frameTitle);
                 frame.setLayout(new GridLayout(1, 1));
                 frame.add(chartPanel);
-                frame.setSize(1000, 800);
+                frame.setSize(800, 800);
                 frame.setLocationRelativeTo(null);
                 frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 frame.setVisible(true);
@@ -289,7 +342,7 @@ public class LCAChart extends JFrame {
                 for (ChartPanel chartPanel : charts) {
                         frame.add(chartPanel);
                 }
-                frame.setSize(1500, 2000);
+                frame.setSize(1000, 1000);
                 frame.setLocationRelativeTo(null);
                 frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 frame.setVisible(true);

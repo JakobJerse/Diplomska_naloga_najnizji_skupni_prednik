@@ -1,7 +1,7 @@
 
 /*
  *  Implementation of LCA using reduction to RMQ technique
- *  Preprocesing complexity : O(nlog(n))
+ *  Preprocesing complexity : O(N log N)
  *  Query complexity : O(1)
  */
 
@@ -36,12 +36,12 @@ public class LCA_RMQ {
         this.pow2Array = new int[size + 1];
         this.sparseTable = new int[p + 1][size];
 
-        buildHelperArrays();
-        dfs(this.root);
-        buildSparseTable();
+        this.buildHelperArrays();
+        this.dfs(this.root);
+        this.buildSparseTable();
 
         long preprocessEndTime = System.nanoTime();
-        preprocessTime = preprocessEndTime - preprocessStartTime;
+        this.preprocessTime = preprocessEndTime - preprocessStartTime;
     }
 
     // construct the log2 and pow2 arrays
