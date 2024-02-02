@@ -6,13 +6,14 @@ Repozitorij vsebuje izvorno kodo implementacij petih različnih algoritmov, ki r
 Celotna izvorna koda je napisana v programskem jeziku **Java** :coffee:, uporabljena pa je bila verzija *java 15*. Rezultati so grafično
 prikazani z orodjem JFreeChart. 
 
-:exclamation: V kolikor se bo bralec lotil evalvacije na svojem računalniku, je potrebno omeniti, da se rezultati lahko razlikujejo od teh, ki so predstavljeni 4. poglavju diplomske naloge, saj so le-ti med drugim odvisni tudi od sistema, na katerem se evalvacija izvaja. Rezultati ki se nahajajo v tem repozitoriju, so bili pridobljeni tekom evalvacije, ki se je izvajala na prenosnem računalniku z 2.6 GHz 6-jedrnim Intel i7 procesorjem, 16 GB RAM-a in grafično kartico AMD Radeon Pro 5300M z 4GB VRAM-a. 
+:exclamation: V kolikor se bo bralec lotil evalvacije na svojem računalniku, je potrebno omeniti, da se rezultati lahko razlikujejo od teh, ki so predstavljeni 4. poglavju diplomske naloge, saj so le-ti med drugim odvisni tudi od sistema, na katerem se evalvacija izvaja. Rezultati ki se nahajajo v tem repozitoriju, so bili pridobljeni tekom evalvacije, ki se je izvajala na prenosnem računalniku z 2.6 GHz 6-jedrnim Intel i7 procesorjem, 16 GB RAM-a in grafično kartico AMD Radeon Pro 5300M z 4GB VRAM-a. Prav tako, je treba programu omogočiti večjo količino sklada (*angl. stack*), saj pride pri ogromnem številu operacij do *StackOverflow*-a - specifično, do te napake pride pri generiranju dreves z več sto tisoč vozlišči, saj se drevesa generirajo s pomočjo rekurzivnih metod. Za to diplsko nalogo sem uporabljal urejevalnik VSCode, ki vsebuje tudi mapo *.vscode* znotraj katere se nahajata konfiguracijski *settings.json* in *launch*json* datoteki, kjer se lahko poveča količina sklada v JVM (*angl. Java Virtual Machine*). Jaz sem povečal velikost sklada na 1GB s pomočjo argumenta: *"vmArgs": "-Xss1g"*.
 
 ---
 
 
 ## :clipboard: Uporaba:
 Ko si uporabnik naloži repozitorij z izvorno kodo, lahko sam izvede evalvacijo, ki je opisana v 4. poglavju diplomske naloge. To lahko stori tako, da preprosto požene datoteko [Main.java](Main.java) in sledi navodilom v ukazni vrstici. V mapi [test_trees](test_trees) se nahajajo testne množice vseh treh tipov drvesnih struktur. Če želi uporabnik generirati nove testne množice, to stori tako, da požene datoteko [TreeGenerator.java](TreeGenerator.java) in prav tako preko ukazne vrstice izbere za katere tipe dreves želi zgenerirati nove testne množice. V primeru, pa da si uporabik želi samo ogledati grafične rezultate evalvacije, ki se je nazadnje izvedla in katere meritve rezultati so shranjeni v mapi [test_results](test_results), pa lahko to stori tako, da požene datoteko **LCAChart.java** in izbere za katero vrsto dreves želi grafično prikazati rezultate.
+
 ---
 
 ## :mag_right: Opis datotek:
